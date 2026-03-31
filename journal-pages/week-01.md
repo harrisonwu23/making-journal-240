@@ -78,9 +78,11 @@ This made me realize that shifting the focus from "data as truth" to "humanity" 
 
 ![alt text](<Week 1 Independent Study data collect.jpg>)
 
+這邊是我製作的Data Drawings,其中記錄了我一天中七種不同的數據,在我完成了之後
+
 # Data drawings answer sheet (Independent Study)
 
-這邊是我製作的Data Drawings,其中記錄了我一天中七種不同的數據,在我完成了之後
+
 
 ![alt text](<Week 1 Independent Study answer sheet.jpg>)
 
