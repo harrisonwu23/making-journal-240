@@ -29,7 +29,7 @@ layout: default
 #
 
 
-![alt text](Experimentation-1.png)
+![p5js experiment](Experimentation.png)
 
 # info slides
 
@@ -44,7 +44,7 @@ I follow the infomation and tried use different shape to create a simple image
 <iframe src="https://editor.p5js.org/harrisonwu23/full/MT3nyU7n4"></iframe>
 
 
-![alt text](<Interactive Sketch.png>)
+![p5js practice](<Interactive Sketch.png>)
 
 through to some experiment with p5js and trying to make DOM elements that control something on the canvas
 
