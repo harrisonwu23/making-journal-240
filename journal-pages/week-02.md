@@ -22,3 +22,30 @@ layout: default
 ## AI Usage Statement
 
 *Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
+
+
+
+
+#
+
+
+![alt text](Experimentation-1.png)
+
+# info slides
+
+Create a simple composition using at least three different shapes   
+
+Use the p5.js reference to find shapes you haven’t tried yet, e.g. rect(), triangle(), line(), ellipse().
+
+I follow the infomation and tried use different shape to create a simple image
+
+# Make an Interactive Sketch
+
+<iframe src="https://editor.p5js.org/harrisonwu23/full/MT3nyU7n4"></iframe>
+
+
+![alt text](<Interactive Sketch.png>)
+
+through to some experiment with p5js and trying to make DOM elements that control something on the canvas
+
+A slider that controls the size or position of a shape
