@@ -30,19 +30,22 @@ layout: default
 
 # DES240 Experiment 1: Data Drawings
 
-![group data collect sheet](<collaborate hand-drawn data of our group-1.jpg>)
-
-![answer sheet](<answer sheet-1.jpg>)
 
 this experiment is quite funny, just our group missed understand the task at start so no one can actually de-code our data collection
 
+![group data collect sheet](<collaborate hand-drawn data of our group.jpg>)
 
+group data collect sheet
 
-![alt text](<From other group-1.jpg>)
+![group answer sheet](<answer sheet.jpg>)
+
+group data collect answer sheet
+
+![From other group](<From other group.jpg>)
 
 This one is from other group that swap with us, they made very visual to observe what data they are collecting
 
-![alt text](20260306_161550-1.jpg)
+![answer](<answer sheet from other group.jpg>)
 
 This is answer sheet of their data collect, we only missed out last question of "how many class did you have today".
 
