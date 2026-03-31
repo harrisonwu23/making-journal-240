@@ -64,6 +64,24 @@ At the same time, its flexibility means that the same content can be easily conv
 This approach aligns with my interests in game design and digital experiences, where systems, structures, and data all play crucial roles. By using Markdown, I can not only document my work but also cultivate a more systematic and scalable way of thinking about design.
 
 
+# Independent Study: Week One
+
+After watching Giorgia Lupi's TED talk about data humanism, I began to rethink the role of "data" in design.
+
+I realized that when people fixate on abstract, quantifiable data, things can become distorted. These seemingly objective data often overlook many incalculable details, such as emotions, feelings, and subtle but important interpersonal interactions, leading to a one-sided or even distorted understanding of the world.
+
+Designing interactive/visualized data makes it easier for people to understand the data and the stories behind it. Data can be conveyed even without technology, such as using pen and paper to record sounds and emotions, combined with charts and annotations, focusing on details that computers cannot capture. This approach preserves the imperfections and subjectivity of data, making it closer to real humanity.
+
+This made me realize that shifting the focus from "data as truth" to "humanity" and integrating imperfections into data collection makes data collection more authentic in different contexts.
+
+
+
+![alt text](<Week 1 Independent Study data collect.jpg>)
+
+
+
+![alt text](<Week 1 Independent Study answer sheet.jpg>)
+
 
 
 
