@@ -74,15 +74,17 @@ Designing interactive/visualized data makes it easier for people to understand t
 
 This made me realize that shifting the focus from "data as truth" to "humanity" and integrating imperfections into data collection makes data collection more authentic in different contexts.
 
-
+# Data drawings (Independent Study)
 
 ![alt text](<Week 1 Independent Study data collect.jpg>)
 
+# Data drawings answer sheet (Independent Study)
 
+這邊是我製作的Data Drawings,其中記錄了我一天中七種不同的數據,在我完成了之後
 
 ![alt text](<Week 1 Independent Study answer sheet.jpg>)
 
-
+這邊是answer sheet
 
 
 ## AI Usage Statement
