@@ -6,38 +6,21 @@ layout: default
                        
 [← Back to Home](../index.md)
 
-## Documentation 
-
-*Include your documentation for the week. Devise your own structure of headings relevant to the required tasks and your process.*
-
-## Images & Media
-
-*Use the format below to embed images from your assets folder:*
-
-`![Alt text](../assets/week-01/your-image.jpg)`
-`*Your caption here*`
-
-*The text inside the square brackets is alt text (a description for accessibility), not a visible caption. To add a caption, place a line of italic text below the image.*
-
-## AI Usage Statement
-
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
-
-# week 1
-
-
-
 
 # DES240 Experiment 1: Data Drawings
 
 
-this experiment is quite funny, just our group missed understand the task at start so no one can actually de-code our data collection
+this experiment is quite intersting to do, just our group missed understand the task at start so no one can actually de-code our data collection
+
+
+![group data answer sheet](/assets/week-01/answer%20sheet.jpg)
+
+in the group, we each come up with an question to collect data with,
 
 ![group data collect](/assets/week-01/collaborate%20hand-drawn%20data%20of%20our%20group.jpg)
 
 group data collect sheet
 
-![group data answer sheet](/assets/week-01/answer%20sheet.jpg)
 
 group data collect answer sheet
 
@@ -72,7 +55,15 @@ This approach aligns with my interests in game design and digital experiences, w
 
 ## AI Usage Statement
 
-gemini 3
+gemini 3 are used to help me clearify the task and tech issue I faaced during the process(understand how to use Github to push/commit local file to online)
 
-Grammarly
+Grammarly used to correcting my grammar and writing
 
+ChatGPT used for give same prompt as I send to gemini to comparing the information for the accuracy
+
+
+Google. (2026). Gemini 3 Flash (April 1 version) [Large language model]. https://gemini.google.com/
+
+Grammarly Inc. (2026). Grammarly (Version 1.2.3) [Computer software]. https://www.grammarly.com/
+
+OpenAI. (2026). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/
