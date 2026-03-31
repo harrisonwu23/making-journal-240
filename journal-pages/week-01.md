@@ -33,19 +33,19 @@ layout: default
 
 this experiment is quite funny, just our group missed understand the task at start so no one can actually de-code our data collection
 
-![image desc](/assets/week-01/collaborate%20hand-drawn%20data%20of%20our%20group.jpg)
+![group data collect](/assets/week-01/collaborate%20hand-drawn%20data%20of%20our%20group.jpg)
 
 group data collect sheet
 
-![image desc](/assets/week-01/answer%20sheet.jpg)
+![group data answer sheet](/assets/week-01/answer%20sheet.jpg)
 
 group data collect answer sheet
 
-![image desc](/assets/week-01/From%20other%20group.jpg)
+![data colletion from other group](/assets/week-01/From%20other%20group.jpg)
 
 This one is from other group that swap with us, they made very visual to observe what data they are collecting
 
-![image desc](/assets/week-01/answer%20sheet%20from%20other%20group.jpg)
+![answer sheet of other group's data collection](/assets/week-01/answer%20sheet%20from%20other%20group.jpg)
 
 This is answer sheet of their data collect, we only missed out last question of "how many class did you have today".
 
