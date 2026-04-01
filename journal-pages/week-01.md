@@ -81,6 +81,7 @@ Also include a timeline that looks like a ruler mark. I've explained what to rec
 ![data collecting sheet](/assets/week-01/Week%201%20Independent%20Study%20data%20collect.jpg)
 *group data collecting sheet*
 
+Next, I documented the data collection for the entire day, from 0:00 to 24:00. This was actually more interesting than I expected, as I did more than I anticipated, especially given the time spent writing assignments and the lack of sleep.
 
 # Reflection
 
