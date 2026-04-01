@@ -26,7 +26,9 @@ During the coding process, I used a tutorial to create the p5.js animation sketc
 
 # Setting up website
 
-![website screenshot](../assets/week-03/setting-up-website.png)
+![website screenshot](../assets/week-03/setting-up-website.png) *my website paeg*
+
+![website screenshot](../assets/week-03/website%20image%20working.png) *image working on site*
 
 During this process, I discovered that the images were not displaying correctly on the website. I initially thought the problem was that the image names in the resource files should ideally use hyphens instead of spaces, but it turned out that a "../" was missing at the beginning. Furthermore, the images still weren't displaying after the change because my website's cache was still interpreting the old path, preventing them from showing up.
 
