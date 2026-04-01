@@ -16,6 +16,7 @@ The plan for this data collection is to record "number of people on their phone 
 
 ![data collect plan exchanged from group](/assets/week-02/Pair%20Exchange%20swaped%20from%20other%20group.jpg)
 
+We received a Plantoo track for the language they speak every time they switch to another one. It's'a . It's confusing to us, but we figured something out about the pie chart they mentioned in the plan.
 
 # Experiment of p5js
 
@@ -62,6 +63,17 @@ Next, I added betting coins to make the game more visually appealing.
 "for the The Blackjack Code you provided, add visual bet coin of p5js code into 10,50,100,200 bet coin" (Google Gemini, 2026).
 
 Here, I let Gemini add different types (prices) of bet coin to make the bet process easier, but it doesn't go exactly as I'm thinking. It reminds me that AI needs more specific details and requirements in prompts to achieve accurate outcomes.
+
+
+
+# Reflection
+
+
+This week changed my perspective on programming, transforming it from a technical skill into a design tool. Through p5.js and interaction design, I realized that data needs to be more than just displayed; it can be created through user actions like clicking, moving, and typing. This resonated with parts of my own projects, where user interactions can be transformed into meaningful data, shaping visuals and user experiences.
+
+This also made me rethink my workflow, as I often start with visuals rather than interaction design. In future designs, I need to focus more on designing meaningful interactions first, rather than simply adding interactions to achieve functionality.
+
+This week taught me that code is not just a tool for designing visuals, but also for shaping behavior and user experience.
 
 
 ## AI Usage Statement
