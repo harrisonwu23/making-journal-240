@@ -15,13 +15,12 @@ this experiment is quite intersting to do, just our group missed understand the 
 
 ![group data answer sheet](/assets/week-01/answer%20sheet.jpg)
 
-in the group, we each come up with an question to collect data of:
+in the group, we each come up with an question to collect data in a day of:
 - screen time
 - siblings
 - time in design
 - time doing assigment
 - how many type of food you eat
-time is today 
 
 
 
