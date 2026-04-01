@@ -56,6 +56,13 @@ At the same time, its flexibility means that the same content can be easily conv
 
 This approach aligns with my interests in game design and digital experiences, where systems, structures, and data all play crucial roles. By using Markdown, I can not only document my work but also cultivate a more systematic and scalable way of thinking about design.
 
+# Independent Study
+
+
+![](/assets/week-01/Week%201%20Independent%20Study%20answer%20sheet.jpg)
+
+![](/assets/week-01/Week%201%20Independent%20Study%20data%20collect.jpg)
+
 # Reflection
 
 This week's course shifted my understanding of data from a purely technical perspective to a more human and expressive one. It also helped me move beyond simply viewing data as numbers or statistics and begin to consider how it represents emotions, behaviors, and personal experiences.
