@@ -14,7 +14,7 @@ layout: default
 this experiment is quite intersting to do, just our group missed understand the task at start so no one can actually de-code our data collection
 
 
-![group data plan/answer sheet](/assets/week-01/answer%20sheet.jpg)
+![group data plan/answer sheet](../assets/week-01/answer%20sheet.jpg)
 
 in the group, we each come up with an question to collect data in a day of:
 - screen time
@@ -25,18 +25,18 @@ in the group, we each come up with an question to collect data in a day of:
 
 
 
-![group data collect](/assets/week-01/collaborate%20hand-drawn%20data%20of%20our%20group.jpg)
+![group data collect](../assets/week-01/collaborate%20hand-drawn%20data%20of%20our%20group.jpg)
 
 group data collect sheet
 
 
 group data collect answer sheet
 
-![data colletion from other group](/assets/week-01/From%20other%20group.jpg)
+![data colletion from other group](../assets/week-01/From%20other%20group.jpg)
 
 This one is from other group that swap with us, they made very visual to observe what data they are collecting
 
-![answer sheet of other group's data collection](/assets/week-01/answer%20sheet%20from%20other%20group.jpg)
+![answer sheet of other group's data collection](../assets/week-01/answer%20sheet%20from%20other%20group.jpg)
 
 This is answer sheet of their data collect, we only missed out last question of "how many class did you have today".
 
@@ -64,7 +64,7 @@ Therefore, I recorded the data collection method described in the video on paper
 
 ## Data Drawings
 
-![data collect plan](/assets/week-01/Week%201%20Independent%20Study%20answer%20sheet.jpg)
+![data collect plan](../assets/week-01/Week%201%20Independent%20Study%20answer%20sheet.jpg)
 *group data collect plan*
 
 I come up with 7 question that relate to me most in recent days
@@ -79,7 +79,7 @@ I come up with 7 question that relate to me most in recent days
 
 Also include a timeline that looks like a ruler mark. I've explained what to record and how to record it during the process using different icons.
 
-![data collecting sheet](/assets/week-01/Week%201%20Independent%20Study%20data%20collect.jpg)
+![data collecting sheet](../assets/week-01/Week%201%20Independent%20Study%20data%20collect.jpg)
 *group data collecting sheet*
 
 Next, I documented the data collection for the entire day, from 0:00 to 24:00. This was actually more interesting than I expected, as I did more than I anticipated, especially given the time spent writing assignments and the lack of sleep.

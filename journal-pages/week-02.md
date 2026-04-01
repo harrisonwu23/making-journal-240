@@ -10,20 +10,20 @@ layout: default
 
 ### Pair Exchange of data portrait
 
-![data collect plan return from group we exchanged](/assets/week-02/Pair%20Exchange%20return%20from%20other%20group.jpg)
+![data collect plan return from group we exchanged](../assets/week-02/Pair%20Exchange%20return%20from%20other%20group.jpg)
 
 During the section, my pair and I didn't bring the independent data portrait, so we made a new sheet for the data collection plan.
 
 The plan for this data collection is to record "number of people on their phone in the room, and every 30 seconds, with a drawing of a sticky man with a phone, one at a time.
 
-![data collect plan exchanged from group](/assets/week-02/Pair%20Exchange%20swaped%20from%20other%20group.jpg)
+![data collect plan exchanged from group](../assets/week-02/Pair%20Exchange%20swaped%20from%20other%20group.jpg)
 
 We received a Plantoo track for the language they speak every time they switch to another one. It's'a . It's confusing to us, but we figured something out about the pie chart they mentioned in the plan.
 
 # Experiment of p5js
 
 
-![p5js experiment](/assets/week-02/Experimentation.png)
+![p5js experiment](../assets/week-02/Experimentation.png)
 
 The experiement list to do:
 
@@ -40,7 +40,7 @@ I follow the infomation and tried use different shape to create a simple image w
 
 *"My iframe src="https://editor.p5js.org/harrisonwu23/full/MT3nyU7n4"></iframe> is not showing in Markdown (I use github)" (Google Gemini, 2026).*
 
-![p5js practice](/assets/week-02/Interactive%20Sketch.png)
+![p5js practice](../assets/week-02/Interactive%20Sketch.png)
 
 through to some experiment with p5js and trying to make DOM elements that control something on the canvas
 
@@ -48,7 +48,7 @@ A slider that controls the size or position of a shape
 
 ### Vibe Code an Interactive Sketch in p5js
 
-![Black jack game generate by Gemini AI](/assets/week-02/p5js%20with%20Gemini%20AI.png)
+![Black jack game generate by Gemini AI](../assets/week-02/p5js%20with%20Gemini%20AI.png)
 *“make a code for p5.js of a black jacj game code” (Google Gemini, 2026).*
 
 I chose Gemini as the AI ​​for my first attempt at Vibe Code because the school provided a Plus version, which I thought would be more accurate than ChatGPT.
@@ -64,7 +64,7 @@ Next, I added betting coins to make the game more visually appealing.
 
 [![p5js link button](https://img.shields.io/badge/_black_jack-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/tz-yX6ae_)
 
-![adding different price of bet coin](/assets/week-02/adding%20different%20bet%20coin.png)
+![adding different price of bet coin](../assets/week-02/adding%20different%20bet%20coin.png)
 *"for the The Blackjack Code you provided, add visual bet coin of p5js code into 10,50,100,200 bet coin" (Google Gemini, 2026).*
 
 
@@ -81,14 +81,14 @@ Here, I let Gemini add different types (prices) of bet coin to make the bet proc
 
 [![p5js link button](https://img.shields.io/badge/_cloud_animtation-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/tdxe4z1jr)
 
-![cloud animtation in p5js](/assets/week-02/cloud%20movement.png)
+![cloud animtation in p5js](../assets/week-02/cloud%20movement.png)
 *cloud animtation in p5js*
 
 I looked up the Variables and Change tutorials, it teach the step by step process of how to create the anination in p5js
 
 [![p5js link button](https://img.shields.io/badge/_add_tree_and_star_animation-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/MjM_gWCrx)
 
-![add tryee and star animation](/assets/week-02/add-tree-and-star-animation.png)
+![add tryee and star animation](../assets/week-02/add-tree-and-star-animation.png)
 *add tryee and star animation*
 
 For me, this tutorial shifted how I see animation in terms of data; it's not about making visuals more complex, but about designing a system that controls change. Everything on screen is still just simple shapes, but once you introduce variables and update them in draw(), those shapes can move. Using functions like frameCount creates predictable, looped motion (like clouds), while random() introduces unpredictability (like shooting stars), but both stem from the same core logic: continuously changing values over time. 
