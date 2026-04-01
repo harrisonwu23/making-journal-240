@@ -62,11 +62,11 @@ This approach aligns with my interests in game design and digital experiences, w
 
 ## AI Usage Statement
 
-gemini 3 are used to help me clearify the task and tech issue I faaced during the process(understand how to use Github to push/commit local file to online)
+Gemini 3 is used to help me clarify the task and tech issue I faced during the process(understand how to use GitHub to push/commit local files to online)
 
-Grammarly used to correcting my grammar and writing
+Grammarly used to correct my grammar and writing.
 
-ChatGPT used for give same prompt as I send to gemini to comparing the information for the accuracy
+ChatGPT used the same prompt as I sent to Gemini to compare the information for accuracy.
 
 
 Google. (2026). Gemini 3 Flash (April 1 version) [Large language model]. https://gemini.google.com/

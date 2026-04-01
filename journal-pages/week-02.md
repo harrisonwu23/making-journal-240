@@ -6,25 +6,6 @@ layout: default
 
 [← Back to Home](../index.md)
 
-## Documentation 
-
-*Include your documentation for the week. Devise your own structure of headings relevant to the required tasks and your process.*
-
-## Images & Media
-
-*Use the format below to embed images from your assets folder:*
-
-`![Alt text](../assets/week-01/your-image.jpg)`
-`*Your caption here*`
-
-*The text inside the square brackets is alt text (a description for accessibility), not a visible caption. To add a caption, place a line of italic text below the image.*
-
-## AI Usage Statement
-
-*Document any use of AI tools under an AI Usage Statement heading. Explain which tools you used and describe how you used them. Reference any AI-generated content (see [QuickCite](https://auckland.libguides.com/referencing-generative-ai-tools) for guidance).*
-
-
-
 
 # Experiment of p5js
 
@@ -38,7 +19,6 @@ The experiement list to do:
 - Use the p5.js reference to find shapes you haven’t tried yet, e.g. rect(), triangle(), line(), ellipse().
 
 I follow the infomation and tried use different shape to create a simple image with blue circle instead of the example color of yellow
-
 
 
 # Make an Interactive Sketch
@@ -61,9 +41,29 @@ I chose Gemini as the AI ​​for my first attempt at Vibe Code because the sch
 
 I initially thought that such a casual prompt as "make a code for p5.js of a blackjack game code" might lead to errors, but it succeeded on the first try. Although the graphics can't compare to other existing blackjack games, the game mechanics are fine.
 
-Next, I added betting coins to make the game more visually appealing.
-
 <iframe src="https://editor.p5js.org/harrisonwu23/full/v3iCa7fkF"></iframe>
 
 ![Added bet coin into black jack game generate by Gemini AI](/assets/week-02/adding%20bet%20coin.png)
 "for the The Blackjack Code you provided, add visual bet coin into p5js code" (Google Gemini, 2026).
+
+Next, I added betting coins to make the game more visually appealing.
+
+![adding different price of bet coin](/assets/week-02/adding%20different%20bet%20coin.png)
+"for the The Blackjack Code you provided, add visual bet coin of p5js code into 10,50,100,200 bet coin" (Google Gemini, 2026).
+
+Here, I let Gemini add different types (prices) of bet coin to make the bet process easier, but it doesn't go exactly as I'm thinking. It reminds me that AI needs more specific details and requirements in prompts to achieve accurate outcomes.
+
+
+## AI Usage Statement
+
+Gemini 3 is used to help me clarify the task and tech issue I faced during the process and vibe coding of generating P5JS code for making blackjack.
+
+Grammarly used to correct my grammar and writing.
+
+ChatGPT used to give the same prompt as I sent to Gemini to compare the information for the accuracy(clearify the task part)
+
+Google. (2026). Gemini 3 Flash (April 1 version) [Large language model]. https://gemini.google.com/
+
+Grammarly Inc. (2026). Grammarly (Version 1.2.3) [Computer software]. https://www.grammarly.com/
+
+OpenAI. (2026). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/
