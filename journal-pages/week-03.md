@@ -32,6 +32,19 @@ During the coding process, I used a tutorial to create the p5.js animation sketc
 
 During this process, I discovered that the images were not displaying correctly on the website. I initially thought the problem was that the image names in the resource files should ideally use hyphens instead of spaces, but it turned out that a "../" was missing at the beginning. Furthermore, the images still weren't displaying after the change because my website's cache was still interpreting the old path, preventing them from showing up.
 
+## Pair Exchange
+
+Check each other’s journal to ensure:
+
+- [x] file structure is correct, no rogue files
+- [x] images are stored in /assets/week-XX/
+- [x] all links to images/media are working
+- [x] Markdown formatting is consistent
+- [x] website published
+- [x] images/media display correctly online
+
+I've checked with others and everything is working in the file and website.
+
 # Independent Study
 
 - [x] Complete Experiment 3: Live Data
