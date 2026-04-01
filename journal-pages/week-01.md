@@ -42,22 +42,12 @@ This is answer sheet of their data collect, we only missed out last question of 
 
 This experiment make me relise the data should be something can understing
 
-# note from class
-
-more wider data
-- screen-based animations(this sound intersting to do)
-- interactive applications
-- 3D-printed or found/fabricated physical objects
-- 2D paper-based works
-
-
 # Independent Study
 
 - [x] Complete Experiment 1: Data Drawings
 - [x] Practice using Markdown to format your first entry in the Making Journal
 - [x] Watch Giorgia Lupi’s TED talk about data humanism
 - [x] Review Canvas pages and assignment briefs
-
 
 
 ### How we can find ourselves in data | Giorgia Lupi
@@ -76,7 +66,17 @@ Therefore, I recorded the data collection method described in the video on paper
 ![data collect plan](/assets/week-01/Week%201%20Independent%20Study%20answer%20sheet.jpg)
 *group data collect plan*
 
+I come up with 7 question that relate to me most in recent days
 
+- Daily Emotional fluctations
+- Daily Digital vs Real world time spend
+- How many people I talk to
+- Unexpected action I do(less to more confused)
+- Time I spend on assigment
+- Time of playing games
+- Time slept
+
+Also include a timeline that looks like a ruler mark. I've explained what to record and how to record it during the process using different icons.
 
 ![data collecting sheet](/assets/week-01/Week%201%20Independent%20Study%20data%20collect.jpg)
 *group data collecting sheet*
