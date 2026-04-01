@@ -59,6 +59,7 @@ finding files and folder by using terminal
 *Create file*
 
 ![text file in desktop](../assets/week-03/text%20file%20in%20desktop.png)
+
 *text file in desktop*
 
 Tried with using terminal to create a file in desktop
