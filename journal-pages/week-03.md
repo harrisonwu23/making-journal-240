@@ -12,7 +12,7 @@ layout: default
 
 [![p5js link button](https://img.shields.io/badge/_black_jack-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/tz-yX6ae_)
 
-![adding different price of bet coin](../assets/week-02/adding_different_bet_coin.png)
+![adding different price of bet coin](/assets/week-02/adding_different_bet_coin.png)
 *"for the The Blackjack Code you provided, add visual bet coin of p5js code into 10,50,100,200 bet coin" (Google Gemini, 2026).*
 
 [![p5js link button](https://img.shields.io/badge/_add_tree_and_star_animation-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/MjM_gWCrx)
@@ -26,7 +26,7 @@ During the coding process, I used a tutorial to create the p5.js animation sketc
 
 # Setting up website
 
-![website screenshot](../assets/week-03/setting-up-website.png)
+![website screenshot](/assets/week-03/setting-up-website.png)
 
 During the process, I found out the image wasn't working on the site, and the problem was the image's name in the assets file. It's best to use a hyphen instead of a space between names; it takes me a while to realize, but it's a simple reason.
 
