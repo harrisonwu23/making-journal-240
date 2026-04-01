@@ -47,18 +47,18 @@ I've checked with others and everything is working in the file and website.
 
 # Experiment
 
-![Terminal](/assets/week-03/Terminal.png)
+![Terminal](../assets/week-03/Terminal.png)
 *Terminal*
 
-![Navigating Files & Folders](/assets/week-03/Navigating%20Files%20&%20Folders.png)
+![Navigating Files & Folders](../assets/week-03/Navigating%20Files%20&%20Folders.png)
 *Navigating Files & Folders*
 
 finding files and folder by using terminal
 
-![Create file](/assets/week-03/Create%20a%20file.png)
+![Create file](../assets/week-03/Create%20a%20file.png)
 *Create file*
 
-![text file in desktop](/assets/week-03/text%20file%20in%20desktop.png)
+![text file in desktop](../assets/week-03/text%20file%20in%20desktop.png)
 *text file in desktop*
 
 Tried with using terminal to create a file in desktop
