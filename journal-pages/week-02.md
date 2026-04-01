@@ -70,6 +70,12 @@ Next, I added betting coins to make the game more visually appealing.
 
 Here, I let Gemini add different types (prices) of bet coin to make the bet process easier, but it doesn't go exactly as I'm thinking. It reminds me that AI needs more specific details and requirements in prompts to achieve accurate outcomes.
 
+# Independent Study
+
+- [x] Complete Experiment 2: Interactivity
+- [x] Use the p5.js reference and tutorials to explore new techniques
+- [x] You can embed p5.js sketches in your Making Journal using an iframe
+- [x] Document your process: sketches, screenshots, code snippets, reflections
 
 # Reflection
 
