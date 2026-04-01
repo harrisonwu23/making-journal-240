@@ -9,6 +9,7 @@ layout: default
 
 # DES240 Experiment 1: Data Drawings
 
+### Group Data Portraits
 
 this experiment is quite intersting to do, just our group missed understand the task at start so no one can actually de-code our data collection
 
@@ -50,28 +51,47 @@ more wider data
 - 2D paper-based works
 
 
-The concept of "documenting the process" opened up new perspectives for me. Markdown lets me transform my design process into structured, readable data in a concise, clear format, rather than leaving it as scattered ideas or informal notes.
-
-At the same time, its flexibility means that the same content can be easily converted into different output formats, such as websites or PDFs. This makes my work more adaptable and reusable, applicable to different scenarios.
-
-This approach aligns with my interests in game design and digital experiences, where systems, structures, and data all play crucial roles. By using Markdown, I can not only document my work but also cultivate a more systematic and scalable way of thinking about design.
-
 # Independent Study
+
+- [x] Complete Experiment 1: Data Drawings
+- [x] Practice using Markdown to format your first entry in the Making Journal
+- [x] Watch Giorgia Lupi’s TED talk about data humanism
+- [x] Review Canvas pages and assignment briefs
+
+
+
+### How we can find ourselves in data | Giorgia Lupi
+
+After watching Giorgia Lupi's TED talk about data humanism, I began to rethink the role of "data" in design.
+
+I realized that when people fixate on abstract, quantifiable data, things can become distorted. These seemingly objective data often overlook many incalculable details, such as emotions, feelings, and subtle but important interpersonal interactions, leading to a one-sided or even distorted understanding of the world.
+
+By designing interactive/visualized data, people can easily understand the data and the stories behind it. Data can be conveyed even without technology, such as using pen and paper to record sounds and emotions, combined with charts and annotations, focusing on details that computers cannot capture. This approach preserves the imperfections and subjectivity of data, making it closer to real humanity.
+
+This made me realize that shifting the focus from data as truth to human nature and integrating imperfections into data collection makes data collection more authentic across different contexts.
+
+Therefore, I recorded the data collection method described in the video on paper and began implementing the data collection plan.
 
 
 ![data collect plan](/assets/week-01/Week%201%20Independent%20Study%20answer%20sheet.jpg)
+*group data collect plan*
 
 
 
 ![data collecting sheet](/assets/week-01/Week%201%20Independent%20Study%20data%20collect.jpg)
+*group data collecting sheet*
+
 
 # Reflection
 
 This week's course shifted my understanding of data from a purely technical perspective to a more human and expressive one. It also helped me move beyond simply viewing data as numbers or statistics and begin to consider how it represents emotions, behaviors, and personal experiences.
 
-The idea of viewing data as creative material was particularly refreshing, as it connects to my game projects, such as collecting data through interactive design in game development.
+The concept of "documenting the process" opened up new perspectives for me. Markdown lets me transform my design process into structured, readable data in a concise, clear format, rather than leaving it as scattered ideas or informal notes.
 
-The concept of using Markdown to document processes is very useful, as it transforms design thinking into a structured, traceable process while also enabling easy conversion to different formats and uploading.
+At the same time, its flexibility means that the same content can be easily converted into different output formats, such as websites or PDFs. This makes my work more adaptable and reusable, applicable to different scenarios.
+
+This approach aligns with my interests in game design and digital experiences, where systems, structures, and data all play crucial roles. The idea of ​​viewing data as creative material was particularly refreshing, as it connects to my game projects, such as collecting data through interactive design in game development.
+
 
 ## AI Usage Statement
 
