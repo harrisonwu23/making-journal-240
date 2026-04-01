@@ -26,7 +26,7 @@ During the coding process, I used a tutorial to create the p5.js animation sketc
 
 # Setting up website
 
-![website screenshot](/assets/week-03/setting-up-website.png)
+![website screenshot](../assets/week-03/setting-up-website.png)
 
 During the process, I found out the image wasn't working on the site, and the problem was the image's name in the assets file. It's best to use a hyphen instead of a space between names; it takes me a while to realize, but it's a simple reason.
 
