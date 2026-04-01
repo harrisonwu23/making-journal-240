@@ -12,7 +12,7 @@ layout: default
 
 [![p5js link button](https://img.shields.io/badge/_black_jack-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/tz-yX6ae_)
 
-![adding different price of bet coin](/assets/week-02/adding-different-bet-coin.png)
+![adding different price of bet coin](/assets/week-02/adding_different_bet_coin.png)
 *"for the The Blackjack Code you provided, add visual bet coin of p5js code into 10,50,100,200 bet coin" (Google Gemini, 2026).*
 
 [![p5js link button](https://img.shields.io/badge/_add_tree_and_star_animation-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/MjM_gWCrx)
