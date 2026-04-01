@@ -28,7 +28,7 @@ During the coding process, I used a tutorial to create the p5.js animation sketc
 
 ![website screenshot](../assets/week-03/setting-up-website.png)
 
-During the process, I found out the image wasn't working on the site, and the problem was the image's name in the assets file. It's best to use a hyphen instead of a space between names; it takes me a while to realize, but it's a simple reason.
+During this process, I discovered that the images were not displaying correctly on the website. I initially thought the problem was that the image names in the resource files should ideally use hyphens instead of spaces, but it turned out that a "../" was missing at the beginning. Furthermore, the images still weren't displaying after the change because my website's cache was still interpreting the old path, preventing them from showing up.
 
 # Independent Study
 
