@@ -57,3 +57,8 @@ A slider that controls the size or position of a shape
 ![Black jack game generate by Gemini AI](/assets/week-02/p5js%20with%20Gemini%20AI.png)
 “make a code for p5.js of a black jacj game code” (Google Gemini, 2026).
 
+
+<iframe src="https://editor.p5js.org/harrisonwu23/full/v3iCa7fkF"></iframe>
+
+![Added bet coin into black jack game generate by Gemini AI](/assets/week-02/adding%20bet%20coin.png)
+"for the The Blackjack Code you provided, add visual bet coin into p5js code" (Google Gemini, 2026).
