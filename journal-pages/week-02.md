@@ -93,6 +93,18 @@ I looked up the Variables and Change tutorials, it teach the step by step proces
 
 For me, this tutorial shifted how I see animation in terms of data; it's not about making visuals more complex, but about designing a system that controls change. Everything on screen is still just simple shapes, but once you introduce variables and update them in draw(), those shapes can move. Using functions like frameCount creates predictable, looped motion (like clouds), while random() introduces unpredictability (like shooting stars), but both stem from the same core logic: continuously changing values over time. 
 
+### draw()
+
+- function draw() {
+}
+
+### random()
+
+ - //set shooting star to random location
+  lineXone = random(0, width);
+  lineYone = random(0, height/2); 
+
+
 # Reflection
 
 This week changed my perspective on programming, transforming it from a technical skill into a design tool. Through p5.js and interaction design, I realized that data needs to be more than just displayed; it can be created through user actions like clicking, moving, and typing. This resonated with parts of my own projects, where user interactions can be transformed into meaningful data, shaping visuals and user experiences.
