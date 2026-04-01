@@ -13,7 +13,7 @@ layout: default
 this experiment is quite intersting to do, just our group missed understand the task at start so no one can actually de-code our data collection
 
 
-![group data answer sheet](/assets/week-01/answer%20sheet.jpg)
+![group data plan/answer sheet](/assets/week-01/answer%20sheet.jpg)
 
 in the group, we each come up with an question to collect data in a day of:
 - screen time
@@ -56,9 +56,13 @@ At the same time, its flexibility means that the same content can be easily conv
 
 This approach aligns with my interests in game design and digital experiences, where systems, structures, and data all play crucial roles. By using Markdown, I can not only document my work but also cultivate a more systematic and scalable way of thinking about design.
 
+# Reflection
 
+This week's course shifted my understanding of data from a purely technical perspective to a more human and expressive one. It also helped me move beyond simply viewing data as numbers or statistics and begin to consider how it represents emotions, behaviors, and personal experiences.
 
+The idea of viewing data as creative material was particularly refreshing, as it connects to my game projects, such as collecting data through interactive design in game development.
 
+The concept of using Markdown to document processes is very useful, as it transforms design thinking into a structured, traceable process while also enabling easy conversion to different formats and uploading.
 
 ## AI Usage Statement
 

@@ -65,9 +65,7 @@ Next, I added betting coins to make the game more visually appealing.
 Here, I let Gemini add different types (prices) of bet coin to make the bet process easier, but it doesn't go exactly as I'm thinking. It reminds me that AI needs more specific details and requirements in prompts to achieve accurate outcomes.
 
 
-
 # Reflection
-
 
 This week changed my perspective on programming, transforming it from a technical skill into a design tool. Through p5.js and interaction design, I realized that data needs to be more than just displayed; it can be created through user actions like clicking, moving, and typing. This resonated with parts of my own projects, where user interactions can be transformed into meaningful data, shaping visuals and user experiences.
 
