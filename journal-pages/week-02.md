@@ -26,26 +26,34 @@ layout: default
 
 
 
-#
+# Experiment of p5js
 
 
-![p5js experiment](Experimentation.png)
+![p5js experiment](/assets/week-02/Experimentation.png)
 
-# info slides
+The experiement list to do:
 
-Create a simple composition using at least three different shapes   
+- Create a simple composition using at least three different shapes   
 
-Use the p5.js reference to find shapes you haven’t tried yet, e.g. rect(), triangle(), line(), ellipse().
+- Use the p5.js reference to find shapes you haven’t tried yet, e.g. rect(), triangle(), line(), ellipse().
 
-I follow the infomation and tried use different shape to create a simple image
+I follow the infomation and tried use different shape to create a simple image with blue circle instead of the example color of yellow
+
+
 
 # Make an Interactive Sketch
 
 <iframe src="https://editor.p5js.org/harrisonwu23/full/MT3nyU7n4"></iframe>
 
 
-![p5js practice](<Interactive Sketch.png>)
+![p5js practice](/assets/week-02/Interactive%20Sketch.png)
 
 through to some experiment with p5js and trying to make DOM elements that control something on the canvas
 
 A slider that controls the size or position of a shape
+
+# Vibe Code an Interactive Sketch in p5js
+
+![Black jack game generate by Gemini AI](/assets/week-02/p5js%20with%20Gemini%20AI.png)
+“make a code for p5.js of a black jacj game code” (Google Gemini, 2026).
+
