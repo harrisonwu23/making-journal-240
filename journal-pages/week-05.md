@@ -6,9 +6,7 @@ layout: default
 
 [← Back to Home](../index.md)
 
-# DES240 Experiment 5: 
-
-### Pair Exchange of data portrait
+# DES240 5: Proposal
 
 
 # Independent Study

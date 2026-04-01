@@ -5,7 +5,9 @@ title: Home
 
 # Making Journal for DES240
 
-*Write a short introduction about yourself and this course here. What are you hoping to learn and achieve? What's your background as a designer? What are your interests as a designer?*
+I am a living graphic designer specializing in digital pixel art, visual design, and web-based creation and games.
+
+In this course (Designing with Data), I plan to learn how to expand my design process using data, programming, and generative systems. I am particularly interested in how to transform data into meaningful visual or interactive experiences.
 
 ---
 
