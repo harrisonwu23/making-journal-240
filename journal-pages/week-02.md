@@ -6,6 +6,16 @@ layout: default
 
 [← Back to Home](../index.md)
 
+# Pair Exchange
+
+![data collect plan return from group we exchanged](/assets/week-02/Pair%20Exchange%20return%20from%20other%20group.jpg)
+
+During the section, my pair and I didn't bring the independent data portrait, so we made a new sheet for the data collection plan.
+
+The plan for this data collection is to record "number of people on their phone in the room, and every 30 seconds, with a drawing of a sticky man with a phone, one at a time.
+
+![data collect plan exchanged from group](/assets/week-02/Pair%20Exchange%20swaped%20from%20other%20group.jpg)
+
 
 # Experiment of p5js
 
