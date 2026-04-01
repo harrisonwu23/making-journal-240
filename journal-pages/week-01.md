@@ -59,9 +59,11 @@ This approach aligns with my interests in game design and digital experiences, w
 # Independent Study
 
 
-![](/assets/week-01/Week%201%20Independent%20Study%20answer%20sheet.jpg)
+![data collect plan](/assets/week-01/Week%201%20Independent%20Study%20answer%20sheet.jpg)
 
-![](/assets/week-01/Week%201%20Independent%20Study%20data%20collect.jpg)
+
+
+![data collecting sheet](/assets/week-01/Week%201%20Independent%20Study%20data%20collect.jpg)
 
 # Reflection
 
