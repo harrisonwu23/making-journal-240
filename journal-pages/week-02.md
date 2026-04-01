@@ -77,6 +77,22 @@ Here, I let Gemini add different types (prices) of bet coin to make the bet proc
 - [x] You can embed p5.js sketches in your Making Journal using an iframe
 - [x] Document your process: sketches, screenshots, code snippets, reflections
 
+### Tutorials - Variables and Change
+
+[![p5js link button](https://img.shields.io/badge/_cloud_animtation-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/tdxe4z1jr)
+
+![cloud animtation in p5js](/assets/week-02/cloud%20movement.png)
+*cloud animtation in p5js*
+
+I looked up the Variables and Change tutorials, it teach the step by step process of how to create the anination in p5js
+
+[![p5js link button](https://img.shields.io/badge/_add_tree_and_star_animation-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/MjM_gWCrx)
+
+![add tryee and star animation](/assets/week-02/add%20tree%20and%20star%20animation.png)
+*add tryee and star animation*
+
+For me, this tutorial shifted how I see animation in terms of data; it's not about making visuals more complex, but about designing a system that controls change. Everything on screen is still just simple shapes, but once you introduce variables and update them in draw(), those shapes can move. Using functions like frameCount creates predictable, looped motion (like clouds), while random() introduces unpredictability (like shooting stars), but both stem from the same core logic: continuously changing values over time. 
+
 # Reflection
 
 This week changed my perspective on programming, transforming it from a technical skill into a design tool. Through p5.js and interaction design, I realized that data needs to be more than just displayed; it can be created through user actions like clicking, moving, and typing. This resonated with parts of my own projects, where user interactions can be transformed into meaningful data, shaping visuals and user experiences.
