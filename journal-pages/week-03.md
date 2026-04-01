@@ -24,9 +24,16 @@ I've shared my p5.js animation sketch and Vibe coding one of Black Jack's animat
 
 During the coding process, I used a tutorial to create the p5.js animation sketch, while Black Jack was created using Vibe coding. If I had more time, I would add more visual, audio, and interactive enhancements to Black Jack, as Vibe coding is likely to become a technology I use frequently in the future.
 
+# Setting up website
+
+![website screenshot](../assets/week-03/setting%20up%20website.png)
+
 # Independent Study
 
-- [x]
+- [x] Complete Experiment 3: Live Data
+- [x] Choose between digital and analogue practices
+- [x] Consider meaningful applications of the tools and techniques (draw on ideas and themes from the practitioner examples)
+- [x] Document your process: sketches, screenshots, code snippets, reflections
 
 # Reflection
 
