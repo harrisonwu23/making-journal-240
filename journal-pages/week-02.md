@@ -6,7 +6,9 @@ layout: default
 
 [← Back to Home](../index.md)
 
-# Pair Exchange
+# DES240 Experiment 2: Interactivity
+
+### Pair Exchange of data portrait
 
 ![data collect plan return from group we exchanged](/assets/week-02/Pair%20Exchange%20return%20from%20other%20group.jpg)
 
@@ -32,10 +34,11 @@ The experiement list to do:
 I follow the infomation and tried use different shape to create a simple image with blue circle instead of the example color of yellow
 
 
-# Make an Interactive Sketch
+### Make an Interactive Sketch
 
-<iframe src="https://editor.p5js.org/harrisonwu23/full/MT3nyU7n4"></iframe>
+[![Try it on p5.js Editor](https://img.shields.io/badge/Play-on%20p5.js%20Web%20Editor-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/MT3nyU7n4) 
 
+*"My iframe src="https://editor.p5js.org/harrisonwu23/full/MT3nyU7n4"></iframe> is not showing in Markdown (I use github)" (Google Gemini, 2026).*
 
 ![p5js practice](/assets/week-02/Interactive%20Sketch.png)
 
@@ -43,24 +46,27 @@ through to some experiment with p5js and trying to make DOM elements that contro
 
 A slider that controls the size or position of a shape
 
-# Vibe Code an Interactive Sketch in p5js
+### Vibe Code an Interactive Sketch in p5js
 
 ![Black jack game generate by Gemini AI](/assets/week-02/p5js%20with%20Gemini%20AI.png)
-“make a code for p5.js of a black jacj game code” (Google Gemini, 2026).
+*“make a code for p5.js of a black jacj game code” (Google Gemini, 2026).*
 
 I chose Gemini as the AI ​​for my first attempt at Vibe Code because the school provided a Plus version, which I thought would be more accurate than ChatGPT.
 
 I initially thought that such a casual prompt as "make a code for p5.js of a blackjack game code" might lead to errors, but it succeeded on the first try. Although the graphics can't compare to other existing blackjack games, the game mechanics are fine.
 
-<iframe src="https://editor.p5js.org/harrisonwu23/full/v3iCa7fkF"></iframe>
+[![p5js link button](https://img.shields.io/badge/_black_jack-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/v3iCa7fkF)
 
 ![Added bet coin into black jack game generate by Gemini AI](/assets/week-02/adding%20bet%20coin.png)
-"for the The Blackjack Code you provided, add visual bet coin into p5js code" (Google Gemini, 2026).
+*"for the The Blackjack Code you provided, add visual bet coin into p5js code" (Google Gemini, 2026).*
 
 Next, I added betting coins to make the game more visually appealing.
 
+[![p5js link button](https://img.shields.io/badge/_black_jack-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/tz-yX6ae_)
+
 ![adding different price of bet coin](/assets/week-02/adding%20different%20bet%20coin.png)
-"for the The Blackjack Code you provided, add visual bet coin of p5js code into 10,50,100,200 bet coin" (Google Gemini, 2026).
+*"for the The Blackjack Code you provided, add visual bet coin of p5js code into 10,50,100,200 bet coin" (Google Gemini, 2026).*
+
 
 Here, I let Gemini add different types (prices) of bet coin to make the bet process easier, but it doesn't go exactly as I'm thinking. It reminds me that AI needs more specific details and requirements in prompts to achieve accurate outcomes.
 
@@ -76,7 +82,7 @@ This week taught me that code is not just a tool for designing visuals, but also
 
 ## AI Usage Statement
 
-Gemini 3 is used to help me clarify the task and tech issue I faced during the process and vibe coding of generating P5JS code for making blackjack.
+Gemini 3 is used to help me clarify the task and tech issue I faced during the process and vibe coding of generating P5JS code for making blackjack. It also helped me find a solution to the problem of not being able to embed p5.js links using an iframe.
 
 Grammarly used to correct my grammar and writing.
 
