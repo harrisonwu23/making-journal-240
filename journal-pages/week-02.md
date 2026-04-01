@@ -57,6 +57,11 @@ A slider that controls the size or position of a shape
 ![Black jack game generate by Gemini AI](/assets/week-02/p5js%20with%20Gemini%20AI.png)
 “make a code for p5.js of a black jacj game code” (Google Gemini, 2026).
 
+I chose Gemini as the AI ​​for my first attempt at Vibe Code because the school provided a Plus version, which I thought would be more accurate than ChatGPT.
+
+I initially thought that such a casual prompt as "make a code for p5.js of a blackjack game code" might lead to errors, but it succeeded on the first try. Although the graphics can't compare to other existing blackjack games, the game mechanics are fine.
+
+Next, I added betting coins to make the game more visually appealing.
 
 <iframe src="https://editor.p5js.org/harrisonwu23/full/v3iCa7fkF"></iframe>
 
