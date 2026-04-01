@@ -62,6 +62,7 @@ This made me realize that shifting the focus from data as truth to human nature 
 
 Therefore, I recorded the data collection method described in the video on paper and began implementing the data collection plan.
 
+## Data Drawings
 
 ![data collect plan](/assets/week-01/Week%201%20Independent%20Study%20answer%20sheet.jpg)
 *group data collect plan*
