@@ -13,7 +13,11 @@ layout: default
 
 # Independent Study
 
-- [x]
+- [x] Complete Experiment 4: Artificial Intelligence
+- [x] View the talk and read the text from the Reading List
+- [x] Consider meaningful applications of the tools and techniques
+- [x] Document your process: sketches, screenshots, code snippets, reflections
+- [x] Finalise your Making Journal for the hand in next week
 
 # Reflection
 
