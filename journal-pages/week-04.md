@@ -38,7 +38,7 @@ This week's class focused on exploring the role of AI in design, from practical 
 ![run a model & ask what I usually ask in chat GPT](../assets/week-04/run%20a%20Model.gif)
 *run a model & ask what I usually ask in chat GPT*
 
-![response of my data colleced for visualisation ideas](/assets/week-04/response%20of%20my%20data%20colleced%20for%20visualisation%20ideas.png)
+![response of my data colleced for visualisation ideas](../assets/week-04/response%20of%20my%20data%20colleced%20for%20visualisation%20ideas.png)
 *response of my data colleced for visualisation ideas*
 
 It contained more content than I expected; while not comprehensive, it was sufficient.
