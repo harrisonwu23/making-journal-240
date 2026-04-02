@@ -45,7 +45,7 @@ Check each other’s journal to ensure:
 
 I've checked with others and everything is working in the file and website.
 
-# Experiment - Retrieving Data with curl in terminal
+# Activity 1 - Explore with with curl (terminal)
 
 ![Terminal](../assets/week-03/Terminal.png)
 *Terminal*
@@ -89,7 +89,7 @@ While this is not easy to read in a terminal, this type of material can be parse
 the tools and services are open source and code availbale on github such as curl, ascii.live ,wttr.in, Free Dictionary API
 
 
-# Design a Data Protocol
+# Activity 3 Design a Data Protocol
 
 ![Data protocol](../assets/week-03/data%20protocol.jpg)
 
