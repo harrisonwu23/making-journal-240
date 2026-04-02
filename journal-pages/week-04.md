@@ -83,7 +83,99 @@ The shortcomings are its generic nature, lack of personalization, and absence of
 ![Audio Overview](../assets/week-04/Audio%20Overview.png)
 *Audio Overview*
 
+![notebooklm Audio overview](/assets/week-04/notebooklm%20Audio%20overview.png)
 
+Some parts of the voice discussion have a slightly mismatched tone and content, and some details are omitted. However, this method allows us to free our hands and obtain some information.
+
+# Proposal
+
+## Step 1: Review and Reflect
+
+I found Experiment 3, Real-Time Data, to be the most interesting.
+
+What impressed me most was how data, through p5.js, transcends numbers themselves, transforming into visual and interactive experiences. Using APIs and "ambiance coding," I began to understand how to transform abstract data into atmosphere, dynamics, and emotions.
+
+An idea that kept coming to mind was **interactive data design**, especially in the gaming industry. I had seen examples of games collecting player choices and using that data to analyze player personality or behavior. This made me realize that data is not just something we use for visualization; it can shape experiences and react to users.
+
+I am particularly interested in **data humanism and personalization**. I don't want to view data as neutral and objective; rather, I want to explore how it reflects personal emotions and experiences. I'm curious about how real-time data can become more personalized—adapting to each user and making it meaningful for them, rather than just providing information.
+
+By combining course readings and discussions, my research aligns with the idea that "data can be transformed into more human and emotional forms." However, I also began to question the view that data is merely representative information. Instead, I'm exploring how data can actively **drive interaction and experience**, especially in game-like systems.
+
+Next, I hope to continue using:
+- Real-time data (API-based systems)
+- Generative visuals (p5.js)
+- Interaction design influenced by game mechanics
+
+## Step 2: Thematic Focus and Data Source(s)
+
+I want to explore **emotional states and self-expression in daily life**, especially how people deal with emotions they are unwilling to express publicly.
+
+In the near future, digital systems (such as applications or games) will be able to continuously collect user interaction data and subtly interpret users' emotional patterns.
+
+The system will not directly ask users how they feel, but will respond based on their behavior, creating a more passive and immersive way to understand emotions.
+
+The data for this project will include the following types:
+
+- **User-generated data** (interactions, choices, inputs, behavioral patterns)
+
+- **Real-time data** (e.g., time, environment, possible weather APIs)
+
+- May include **simulated emotional data** (for system prototyping)
+This data is mostly **dynamic**, changing in real time based on user interactions.
+
+The system will not present the raw data, but will interpret it as:
+
+- Visual atmosphere
+- Interactive feedback
+- Dynamically changing environment
+
+The goal is not to pursue precision, but **emotional transformation**—transforming behavior and data into a tangible experience.
+
+This project is closely related to the following concepts:
+
+- Data Humanism (Imbuing data with emotion and relevance)
+- Data as Material (Viewing data as objects to be designed)
+- Interactive Data Systems (Data shapes real-time experiences)
+
+## Step 3: Visualisation & Impact
+
+This project will likely be presented in the form of an **interactive digital experience or game system**.
+
+Users will interact with the system through simple operations (movement, selection, input), and the system environment will respond in real time.
+
+This system doesn't display numbers or charts; instead, it creates:
+
+- A constantly changing visual environment
+- A dynamic motion system (particles, shapes, atmosphere)
+- Subtle feedback loops based on behavior
+
+### Purpose
+
+The purpose of this data-driven visualization is to:
+
+- Explore how data can be **personalized and emotional**
+
+- Go beyond viewing data as messages, transforming it into **experiences**
+
+- Question how systems interpret and represent human states
+
+### Audience Experience
+
+I hope the audience will:
+
+- Feel the system's "response" to them
+- Gain a clearer understanding of how their behavior is translated into data
+- Reflect on their emotional states through interaction
+
+### Expected Impact
+
+Ideally, this project will bring:
+
+- A shift in perspective (data is not just numbers, but experiences)
+- Curiosity about how digital systems interpret us
+- Understanding the relationship between **data, identity, and interaction**
+
+This project is not intended to provide definitive answers, but rather to create a space where users can **feel and reflect**.
 
 # Independent Study
 
@@ -92,6 +184,12 @@ The shortcomings are its generic nature, lack of personalization, and absence of
 - [x] Consider meaningful applications of the tools and techniques
 - [x] Document your process: sketches, screenshots, code snippets, reflections
 - [x] Finalise your Making Journal for the hand in next week
+
+![Find a Dataset](../assets/week-04/Find%20a%20Dataset.png)
+*Find a Dataset in data.govt.nz*
+
+I search up mental helath data in data.govt.nz and saved the csv file 
+
 
 # Reflection
 
