@@ -80,6 +80,11 @@ Tried with using terminal to create a file in desktop
 
 ![Filtering Live Data format parameters](../assets/week-03/Filtering%20Live%20Data(format%20parameters).gif)
 
+## Demo 4 Raw Data (JSON)
+
+![Raw Data JSON](../assets/week-03/Raw%20Data%20JSON.gif)
+
+While this is not easy to read in a terminal, this type of material can be parsed, filtered, and visualized through procedural code.
 
 # Independent Study
 
