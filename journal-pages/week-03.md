@@ -106,6 +106,8 @@ First, I found the latitude and longitude (25.033270144881925, 121.5833606611610
 
 Then I put it into an API website to get the weather, a link that can be directly embedded in p5.js, and the selected values ​​available in the example.
 
+[![p5js link button](https://img.shields.io/badge/_Live_Data-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/AVOMWQMeV)
+
 ![Drawing with Weather using an API in p5.js(put the link I got from API to p5.js)](../assets/week-03/Drawing%20with%20Weather%20using%20an%20API%20in%20p5.js.png)
 *Drawing with Weather using an API in p5.js(put the link I got from API to p5.js)*
 
@@ -116,6 +118,8 @@ I then embedded the link into p5.js so it could use weather data for Taipei, Tai
 
 ![Hourly Weather Variables Setting in API](/assets/week-03/Hourly%20Weather%20Variables%20Setting%20in%20API.png)
 *Different Hourly Weather Variables Setting in API*
+
+[![p5js link button](https://img.shields.io/badge/_Live_Data-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/EyCdWSoSs)
 
 ![vibe coding with p5.js using API weather in Tawia](../assets/week-03/vibe%20coding%20with%20p5.js%20using%20API%20weather%20in%20Tawian.gif)
 *vibe coding with p5.js using API weather in Tawia*
@@ -150,14 +154,26 @@ This showed me how observation can reveal information that pure data collection 
 ![latitude and longitude from Japan](/assets/week-03/latitude%20and%20longitude%20from%20Japan.png)
 *latitude and longitude from Japan*
 
+using the same process in the class, I first getting the latitude and longitude from Japan for this time.
+
 ![setting 1 in open mete API](../assets/week-03/setting%201.png)
 *setting in open mete API*
 
 ![setting 2 in open mete API](/assets/week-03/setting%202.png)
 *setting in open mete API*
 
+Then, I chose to use the Open-Meteo API. Although it was only used as an example in class, I decided to use it because it's easy to use and flexible. Unlike other more complex APIs, Open-Meteo doesn't require authentication and provides structured JSON data that's easy to integrate into p5.js. It also provides a variety of environmental variables (such as temperature, wind speed, and humidity) that are very easy to use.
+
+
+![screenshot from p5.js with vibe coding outcome (live data)](/assets/week-03/screenshot%20from%20p5.js%20with%20vibe%20coding%20outcome.png)
+*screenshot from p5.js with vibe coding outcome(live data)*
+
+[![p5js link button](https://img.shields.io/badge/_Live_Data-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/XfDlPwBf6)
+
 ![Live data in p5.js with vibe coding](/assets/week-03/Live%20Data%20p5.js.gif)
 *Live data in p5.js with vibe coding*
+
+After getting the API, I make the vibe coding with gemini 3
 
 # Reflection
 
