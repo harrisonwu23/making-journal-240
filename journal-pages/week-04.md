@@ -50,14 +50,12 @@ This week's class focused on exploring the role of AI in design, from practical 
 ![Build Notebook in notebooklm](../assets/week-04/Build%20Notebook%20in%20notebooklm.png)
 *Build Notebook in notebooklm*
 
-![response of cannot browse the content of the link](../assets/week-04/response%20of%20cannot%20browse%20the%20content%20of%20the%20link.png)
-*response of cannot browse the content of the link*
-
 
 ![Frame my research(answer three question and upload as .md file)](../assets/week-04/Frame%20my%20research(answer%20three%20question%20and%20upload%20as%20.md%20file).png)
 *Frame my research(answer three question and upload as .md file)*
 
 I answer the following question to make it as .md file and upload into notebooklm
+
 
 #### The experiment you found most interesting, and why
 I found experiment 3 live data is interesting of the part we are learning how to use data into p5.js and use vibe coding to make the idea possible through data.
@@ -69,6 +67,21 @@ the data interactive design is keep coming back to me, because of I've seen a ga
 I'm curious about how to transform real-time data into a more personalized, emotionally resonant experience, rather than just visual output.
 
 For example, I'd like to explore how data can be personalized to each user's individual circumstances, reflecting their emotions, behaviors, or interaction patterns in real time, much like how game systems can "understand" players.
+
+![response from notebooklm of disagrees to my project 1](../assets/week-04/response%20from%20notebooklm%20of%20disagrees%20to%20my%20project%201.png)
+*response from notebooklm of disagrees to my project 1*
+
+![response from notebooklm of disagrees to my project 1](../assets/week-04/response%20from%20notebooklm%20of%20disagrees%20to%20my%20project%202.png)
+*response from notebooklm of disagrees to my project 2*
+
+
+
+The response Notebook leans toward an academic template, is overly literal, and lacks a clear connection to the individual project. He offered different perspectives that might challenge those with differing opinions, analyzing specific issues, all key points of design vs. algorithm (authorship issues), the subjectivity of data meaning, time and feasibility, and data ethics are all clearly structured.
+
+The shortcomings are its generic nature, lack of personalization, and absence of deeper discussion.
+
+![Audio Overview](../assets/week-04/Audio%20Overview.png)
+*Audio Overview*
 
 
 
