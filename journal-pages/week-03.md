@@ -173,7 +173,13 @@ Then, I chose to use the Open-Meteo API. Although it was only used as an example
 ![Live data in p5.js with vibe coding](/assets/week-03/Live%20Data%20p5.js.gif)
 *Live data in p5.js with vibe coding*
 
-After getting the API, I make the vibe coding with gemini 3
+After getting the API, I make the vibe coding with gemini 3.
+
+I first gave the AI ​​the requirements: the background color should smoothly transition using `lerpColor()` based on changes in day and night and cloud cover; the size and complexity of the central geometry should correspond to temperature; air pressure should affect the vibration frequency of the graphics; the particle system should drift horizontally due to wind speed, but should fall vertically if it rains. The AI generated initial code based on these instructions, and I then tested, adjusted the parameters, and observed the effects. However, it didn't work the way I wanted, so I didn't make any adjustments.
+
+This process allowed me to understand the malleability of data truly: day and night and cloud cover control the background color, not just visually, but also conveying a sense of time and weather mood; temperature corresponds to the size and number of sides of the graphics, and air pressure corresponds to vibration, transforming abstract numbers into a more intuitive energy state; wind speed and rainfall control the movement of the particle system, creating a visual rhythm of alternating speeds. The entire process is like translating data into a living system, allowing viewers to feel the state and mood of Tokyo's weather without needing to understand the numbers.
+
+During this process, I also explored more ways to collaborate with the AI: first, providing design intent, mapping strategies, and visualization rules; then, using the AI ​​to generate code; and finally adjusting and validating it myself. This workflow not only accelerated the implementation but also gave me more room to think about "how data is perceived" rather than just being presented. The UI layer also displays the original data values ​​at the same time, allowing observers to see both the data itself and its transformed visual effects.
 
 # Reflection
 
@@ -244,4 +250,156 @@ The AI (Gemini) suggested enhancing the "aliveness" of the visualization by trea
 
 * **`noise()` Implementation:** Instead of static positions, the AI suggested using Perlin noise to create organic, smooth wobbling for the central element, influenced by the `wind_speed_10m
 
+## Appendix B: User Prompt and Generated Code
+User Prompt
 
+The following prompt was provided to the LLM to generate the generative system based on specific atmospheric data mappings:
+
+Act as a Creative Technologist. Create a p5.js sketch using the Open-Meteo API for Tokyo. Provide the full code followed by a technical explanation based on the following design decisions:
+
+Act as a Creative Technologist. Create a p5.js sketch using the Open-Meteo API for Tokyo. Provide the full code followed by a technical explanation based on the following design decisions:
+
+1. **Data Mapping:**
+   - **Color & Mood:** Map `is_day` and `cloud_cover` to the background using `lerpColor` to represent the atmospheric shift between a clear day and a cloudy night.
+   - **Size & Shape:** Map `temperature_2m` to the radius and complexity (number of sides) of a central geometric structure.
+   - **Vibration:** Map `surface_pressure` to a high-frequency pulse or jitter in the central shape.
+   - **Movement:** Create a particle system where `wind_speed_10m` dictates horizontal force, but if `rain > 0`, the particles must transition from horizontal drifting to vertical falling.
+
+2. **Beyond Numbers:** Explain how this visualization reveals the 'weight' of the air and the 'energy' of the environment in a way that raw integers cannot.
+
+3. **Temporal Rhythm:** Explain the relationship between the data’s rhythm (e.g., the slow crawl of pressure vs. the fast gust of wind) and the visual rhythm of the sketch.
+
+Ensure the code uses a Class for particles and a clear UI overlay for the raw data values.
+
+**API Endpoint:** https://api.open-meteo.com/v1/forecast?latitude=35.683899&longitude=139.788694&current=temperature_2m,relative_humidity_2m,wind_speed_10m,rain,weather_code,cloud_cover,pressure_msl,surface_pressure,is_day&timezone=Asia%2FTokyo
+
+Generated p5.js Code
+
+The following code represents the technical implementation generated in response to the prompt above:
+
+```javascript
+let weather;
+let url = "https://api.open-meteo.com/v1/forecast?latitude=35.683899&longitude=139.788694&current=temperature_2m,relative_humidity_2m,wind_speed_10m,rain,weather_code,cloud_cover,pressure_msl,surface_pressure,is_day&timezone=Asia%2FTokyo";
+
+let particles = [];
+let numParticles = 150;
+
+function preload() {
+  weather = loadJSON(url);
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  for (let i = 0; i < numParticles; i++) {
+    particles.push(new AtmosphericParticle());
+  }
+}
+
+function draw() {
+  if (!weather) return;
+
+  let curr = weather.current;
+  let temp = curr.temperature_2m;
+  let wind = curr.wind_speed_10m;
+  let humidity = curr.relative_humidity_2m;
+  let isDay = curr.is_day;
+  let clouds = curr.cloud_cover;
+  let rain = curr.rain;
+  let pressure = curr.surface_pressure;
+
+  let dayColor = color(135, 206, 235);
+  let nightColor = color(10, 20, 45);
+  let cloudOvercast = color(80, 85, 95);
+  
+  let baseTone = isDay === 1 ? dayColor : nightColor;
+  let finalBG = lerpColor(baseTone, cloudOvercast, clouds / 100);
+  background(finalBG);
+
+  push();
+  translate(width / 2, height / 2);
+  
+  let jitter = map(pressure, 960, 1040, 5, 0.5);
+  let pulse = sin(frameCount * (pressure/500)) * jitter;
+  
+  let radius = map(temp, 0, 40, 50, 250);
+  let sides = floor(map(temp, 0, 40, 3, 12)); 
+  
+  let coreColor = lerpColor(color(0, 150, 255), color(255, 100, 0), map(temp, 5, 35, 0, 1));
+  
+  stroke(coreColor);
+  strokeWeight(2);
+  noFill();
+  
+  for (let i = 0; i < 5; i++) {
+    rotate(frameCount * 0.01);
+    drawPolygon(0, 0, radius + (i * 10) + pulse, sides);
+  }
+  pop();
+
+  for (let p of particles) {
+    p.update(wind, rain);
+    p.display(rain);
+  }
+
+  displayUI(temp, wind, humidity, rain, clouds, pressure);
+}
+
+function drawPolygon(x, y, radius, npoints) {
+  let angle = TWO_PI / npoints;
+  beginShape();
+  for (let a = 0; a < TWO_PI; a += angle) {
+    let sx = x + cos(a) * radius;
+    let sy = y + sin(a) * radius;
+    vertex(sx, sy);
+  }
+  endShape(CLOSE);
+}
+
+class AtmosphericParticle {
+  constructor() {
+    this.pos = createVector(random(width), random(height));
+    this.vel = createVector(random(-1, 1), random(-1, 1));
+    this.acc = createVector(0, 0);
+  }
+
+  update(wind, rain) {
+    if (rain > 0) {
+      let gravity = map(rain, 0, 10, 2, 10);
+      this.pos.y += gravity;
+      this.pos.x += random(-0.5, 0.5);
+    } else {
+      let windForce = map(wind, 0, 50, 0.5, 15);
+      this.pos.x += windForce;
+      this.pos.y += sin(this.pos.x * 0.02) * 2;
+    }
+
+    if (this.pos.x > width) this.pos.x = 0;
+    if (this.pos.y > height) this.pos.y = 0;
+  }
+
+  display(rain) {
+    if (rain > 0) {
+      stroke(150, 180, 255, 150);
+      line(this.pos.x, this.pos.y, this.pos.x, this.pos.y + 12);
+    } else {
+      noStroke();
+      fill(255, 180);
+      ellipse(this.pos.x, this.pos.y, 3, 3);
+    }
+  }
+}
+
+function displayUI(t, w, h, r, c, p) {
+  fill(0, 150);
+  noStroke();
+  rect(20, 20, 260, 140, 8);
+  fill(255);
+  textFont('monospace');
+  textSize(13);
+  text(`LOCATION: TOKYO, JP`, 35, 45);
+  text(`TEMP: ${t}°C | HUMID: ${h}%`, 35, 70);
+  text(`WIND: ${w}km/h | RAIN: ${r}mm`, 35, 90);
+  text(`CLOUDS: ${c}%`, 35, 110);
+  text(`PRESSURE: ${p}hPa`, 35, 130);
+}
+```
