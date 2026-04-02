@@ -89,6 +89,10 @@ While this is not easy to read in a terminal, this type of material can be parse
 the tools and services are open source and code availbale on github such as curl, ascii.live ,wttr.in, Free Dictionary API
 
 
+# Activity 2
+
+![latitude and longitude from Tawian](../assets/week-03/latitude%20and%20longitude%20from%20Tawian.png)
+
 # Activity 3 Design a Data Protocol
 
 ![Data protocol](../assets/week-03/data%20protocol.jpg)
