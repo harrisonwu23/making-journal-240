@@ -185,6 +185,8 @@ This project is not intended to provide definitive answers, but rather to create
 - [x] Document your process: sketches, screenshots, code snippets, reflections
 - [x] Finalise your Making Journal for the hand in next week
 
+### data visualisation with AI
+
 ![Find a Dataset](../assets/week-04/Find%20a%20Dataset.png)
 *Find a Dataset in data.govt.nz*
 
@@ -199,11 +201,110 @@ I search up mental helath data in data.govt.nz and saved the csv file and hand o
 ![gemini response of csv data file 3](../assets/week-04/gemini%20response%20of%20csv%20data%20file%203.png)
 *gemini response of csv data file*
 
+### takeaway from AI
+
 In Gemini's response, he told me that this data shows New Zealand's vast social service network (over 23,000 services), with a predominance of "free services" (over 60%) and a particular focus on vulnerable groups such as youth, families, and victims of violence. It also reflects the support systems established through local organizations in rural areas. This data can be used to analyze the equitable distribution of services, accessibility across different regions, and whether services meet the needs of the population.
 
 However, the data also contains biases, such as service concentration in large cities (e.g., Auckland), incomplete information due to reliance on self-reported data from organizations, and digital disparities that make some services harder to find. Overall, this data is likely collected by the government (e.g., the Ministry of Social Development) to help people find support resources and to assist in policy-making and resource allocation.
 
+### outcome from AI
+
+![Gemini_Code_Generated_Image from data 1](../assets/week-04/Gemini_Code_Generated_Image%20from%20data%201.png)
+*"produce a visualisation of the data" (Google Gemini, 2026).*
+
+![Gemini_Code_Generated_Image from data 2](../assets/week-04/Gemini_Code_Generated_Image%20from%20data%202.png)
+*"produce a visualisation of the data" (Google Gemini, 2026).*
+
+![Gemini_Code_Generated_Image from data 3](../assets/week-04/Gemini_Code_Generated_Image%20from%20data%203.png)
+*"produce a visualisation of the data" (Google Gemini, 2026)."*
+
+These are the first outcomes Gemini provided; they were for comparison purposes for the next section. I'll give the details on how I want it to generate.
+
+Then I come up with some different prompt for visualisation to gemini
+
+### prompt 1 for AI
+
+Create a data visualization using this dataset.
+
+Chart type: Line chart or bar chart (choose the most appropriate)
+
+Audience: General public in New Zealand
+
+Goal: Clearly communicate a trend or pattern in the data over time
+
+Instructions:
+- Highlight the most important variable in the dataset
+- Use color contrast to emphasize changes or peaks
+- Add annotations to explain key moments or anomalies
+- Keep the design minimal and easy to read
+
+Also explain:
+- Why you chose this chart type
+- What story the data is telling
+
+![Gemini Code Generated visualisation of the data](/assets/week-04/Gemini_Code_Generated_visualisation%20of%20the%20data.png)
+*"Gemini Code Generated visualisation of the data(Google Gemini, 2026)."*
+
+it's giving the outcome silamar to my idea, but it has some random stuff going around the data sheet.
+
+### prompt 2 for AI
+
+Create a more experimental data visualization of this dataset.
+
+Format: Not a standard chart (avoid bar/line charts)
+Audience: Design students / creative audience
+Goal: Translate data into a visual experience rather than a traditional graph
+
+Instructions:
+- Use shapes, patterns, or abstract visuals to represent the data
+- Map variables to visual properties (e.g. size, density, repetition, spacing)
+- Focus on emotional or conceptual interpretation instead of precision
+- Keep the data readable but not necessarily literal
+
+Also explain:
+- What each visual element represents
+- How this approach changes the way we understand the data
+
+![prompt 2 of Gemini Code Generated visualisation of the data](/assets/week-04/prompt%202%20of_Gemini_Code_Generated_visualisation%20of%20the%20data.png)
+*prompt 2 of Gemini Code Generated visualisation of the data*
+
+This is an interesting outcome because some data points are far from the average, making the visual data look really small.
+
+### prompt 3 for AI
+
+Create an interactive p5.js visualization using this dataset.
+
+Audience: Young users / students
+Goal: Let users explore the data interactively
+
+Requirements:
+- Load the dataset (CSV) into p5.js
+- Map at least 2 variables to visual elements (e.g. position, color, size)
+- Add interaction (hover, click, or animation)
+- Show tooltips or dynamic text when users interact
+
+Design direction:
+- Make it playful and engaging
+- Avoid default chart styles
+- Think of it like a small data-driven experience, not just a graph
+
+Also include:
+- Full code
+- Explanation of how interaction helps understanding
+
+
+
 # Reflection
+
+This week made me rethink the true meaning of AI in my design process. Initially, I primarily used AI as a tool for quickly generating results (such as code, visualizations, or interpretations), but through experimentation and comparison of different tools, I began to realize that AI wasn't truly "designed" for me; it was more about providing structured possibilities based on patterns.
+
+One striking observation was the starkly different feedback from different tools. For example, NotebookLM was highly structured and critical, but also rather generic and not very relevant to my personal projects. Gemini was more flexible in generating visualizations, but sometimes the output felt random or didn't quite match the dataset. This made me realize that AI's output was highly dependent on how I crafted the prompts, and also indicated that AI still lacked a true understanding of context and intent.
+
+What I found most valuable was the concept of control and authorship. Even when using AI, I remained the one deciding the direction, filtering the results, and shaping the outcome. AI became part of the process, but the designer wasn't the one who was. This is closely related to my interest in "vibe coding," which emphasizes iteration, intuition, and experimentation, rather than complete pre-planning.
+
+I've also started thinking more critically about data. Previously, I focused more on "how to visualize the data," but now I'm more interested in the data's meaning and emotional impact. Especially when designing emotional and personalized systems, artificial intelligence has made me question whether data can truly represent a person, or create a simplified version of "human."
+
+In short, this week I shifted my mindset, no longer viewing artificial intelligence as a shortcut but rather as a collaborative, imperfect system. It helps me explore ideas faster, but also requires me to be more attentive, critical, and cautious in design decisions.
 
 ## AI Usage Statement
 
