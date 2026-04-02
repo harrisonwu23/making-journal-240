@@ -47,7 +47,30 @@ This week's class focused on exploring the role of AI in design, from practical 
 ![outcomes for resoinse into p5.js](../assets/week-04/outcomes%20for%20resoinse%20into%20p5.js.png)
 *outcomes for resoinse into p5.js*
 
-![]
+![Build Notebook in notebooklm](../assets/week-04/Build%20Notebook%20in%20notebooklm.png)
+*Build Notebook in notebooklm*
+
+![response of cannot browse the content of the link](../assets/week-04/response%20of%20cannot%20browse%20the%20content%20of%20the%20link.png)
+*response of cannot browse the content of the link*
+
+
+![Frame my research(answer three question and upload as .md file)](../assets/week-04/Frame%20my%20research(answer%20three%20question%20and%20upload%20as%20.md%20file).png)
+*Frame my research(answer three question and upload as .md file)*
+
+I answer the following question to make it as .md file and upload into notebooklm
+
+#### The experiment you found most interesting, and why
+I found experiment 3 live data is interesting of the part we are learning how to use data into p5.js and use vibe coding to make the idea possible through data.
+
+#### A theme or idea you keep coming back to
+the data interactive design is keep coming back to me, because of I've seen a game was made by option that collecting data from player and analyse the personality player have.
+
+#### Something you’re curious about but haven’t had a chance to explore yet
+I'm curious about how to transform real-time data into a more personalized, emotionally resonant experience, rather than just visual output.
+
+For example, I'd like to explore how data can be personalized to each user's individual circumstances, reflecting their emotions, behaviors, or interaction patterns in real time, much like how game systems can "understand" players.
+
+
 
 # Independent Study
 
