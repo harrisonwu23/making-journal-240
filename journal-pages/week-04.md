@@ -87,7 +87,7 @@ The shortcomings are its generic nature, lack of personalization, and absence of
 ![Audio Overview](../assets/week-04/Audio%20Overview.png)
 *Audio Overview*
 
-![notebooklm Audio overview](/assets/week-04/notebooklm%20Audio%20overview.png)
+![notebooklm Audio overview](../assets/week-04/notebooklm%20Audio%20overview.png)
 
 Some parts of the voice discussion have a slightly mismatched tone and content, and some details are omitted. However, this method allows us to free our hands and obtain some information.
 
