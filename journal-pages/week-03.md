@@ -121,7 +121,7 @@ I then embedded the link into p5.js so it could use weather data for Taipei, Tai
 *vibe coding with p5.js using API weather in Tawia*
 (Note. Visualisation created via p5.js using a prompt (Google, 2026) to integrate real-time weather data with noise() for animation. See ## Appendix A in reference for the full prompt and source code.)
 
-
+Finally, I used Gemini 3 for vibe coding, providing different data links and source code to transform the data drawing in p5.js into a vivid animation.
 
 
 # Activity 3 Design a Data Protocol
@@ -146,6 +146,16 @@ This showed me how observation can reveal information that pure data collection 
 - [x] Document your process: sketches, screenshots, code snippets, reflections
 
 # Reflection
+
+This week's content was incredibly rich and engaging, giving me a deeper understanding of the concept that "data is not just numbers, but a material that can be designed and translated." From creating animations with p5.js to integrating real-time weather data into the screen using an API, I began to realize that data itself has no emotion. Still, through design (such as visuals, motion, and interaction), it can be transformed into something with feeling. Using `noise()` to make data "move" was particularly inspiring; the process of transforming data into a living system was very enlightening.
+
+Furthermore, in the data protocol for Activity 3, I discovered that "observation" is more interesting than the rules themselves. What started as a simple, rational setting of sound volume → block size revealed rhythms, sudden spikes, and even the influence of context (class dismissal, crowds)—contexts that are invisible to pure data. This made me think that in future data-related designs, I could also incorporate "unpredictability" or "human behavior" into the design process, rather than just pursuing precision.
+
+This week also helped me become more familiar with workflows (terminals, APIs, website setup). While issues like image paths and caching seem minor, they significantly impact the final presentation, giving me a better understanding of the complete workflow of a database digital project.
+
+Extending to real-life applications, I started thinking about how to transform these tools into more meaningful designs. For example, in my current emotion-related design project, emotions can be viewed as live data, transformed into dynamic visuals through user behavior (text input, interaction frequency, dwell time), making abstract emotions "visible" and "feelable." Simultaneously, I can combine concepts like APIs and incorporate environmental data (such as weather and time) into the design, allowing the entire experience to change with the real world and forming a more vibrant interactive system.
+
+Overall, the biggest takeaway this week was realizing that I'm not just "making things with data," but rather "designing how data is perceived." This will be very helpful for my future work in interactive experiences and even vibe coding.
 
 ## AI Usage Statement
 
