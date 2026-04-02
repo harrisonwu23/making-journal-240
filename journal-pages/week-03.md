@@ -86,6 +86,23 @@ Tried with using terminal to create a file in desktop
 
 While this is not easy to read in a terminal, this type of material can be parsed, filtered, and visualized through procedural code.
 
+the tools and services are open source and code availbale on github such as curl, ascii.live ,wttr.in, Free Dictionary API
+
+
+# Design a Data Protocol
+
+![Data protocol](../assets/week-03/data%20protocol.jpg)
+
+I designed a system to measure the volume of sounds in the surrounding environment. The frequency is to collect data every 10 seconds, and the mapping ranges from quiet (small squares), medium (medium squares), to loud (large squares). If there is no sound for more than 10 seconds, a line is drawn.
+
+After revising my data protocol, some parts intrigued me. For example, I didn't specifically configure whether the next record should be placed next to the previous one, but this seemed to be based on habitual recording, and the volume of some recorded times maintained a rhythm from low to high, except for a few particularly loud nodes that surprised me.
+
+![Data protocol from pairs](../assets/week-03/data%20protocol%20from%20pairs.jpg)
+
+The other party expected zero people to be standing, but that wasn't the case, and the number of people varied more than he anticipated.
+
+This showed me how observation can reveal information that pure data collection alone cannot obtain. Our scenario was a class with a large number of students, and it was nearing the end of the get-out-of-class time. In addition to the teacher remaining standing, students leaving and people standing to chat also affected the data.
+
 # Independent Study
 
 - [x] Complete Experiment 3: Live Data
