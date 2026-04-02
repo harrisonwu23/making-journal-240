@@ -314,7 +314,7 @@ Also explain:
 - What data each part of the story represents
 - What is gained or lost compared to a visual chart
 
-![![prompt 4 of Gemini Code Generated visualisation of the data](/assets/week-04/prompt%204%20of_Gemini_Code_Generated_visualisation%20of%20the%20data.png)
+![prompt 4 of Gemini Code Generated visualisation of the data](/assets/week-04/prompt%204%20of_Gemini_Code_Generated_visualisation%20of%20the%20data.png)
 *"Gemini prompt 4 Generated visualisation of the data(Google Gemini, 2026)."*
 
 This is the most successful one so far. Although it has a strong AI-generated feel, it offers more visual and narrative elements and contains some textual errors.
