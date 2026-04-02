@@ -45,7 +45,7 @@ Check each other’s journal to ensure:
 
 I've checked with others and everything is working in the file and website.
 
-# Experiment
+# Experiment - Retrieving Data with curl in terminal
 
 ![Terminal](../assets/week-03/Terminal.png)
 *Terminal*
@@ -63,6 +63,23 @@ finding files and folder by using terminal
 *text file in desktop*
 
 Tried with using terminal to create a file in desktop
+
+
+
+## Demo 1 ASCII Animations
+
+![terminal text animation](../assets/week-03/text%20person%20running%20in%20Terminal.gif)
+
+
+
+## Demo 2 Weather
+
+![weather data from different area in terminal](../assets/week-03/Weather%20data%20in%20terminal.gif)
+
+## Demo 3 Filtering Live Data
+
+![Filtering Live Data format parameters](../assets/week-03/Filtering%20Live%20Data(format%20parameters).gif)
+
 
 # Independent Study
 
