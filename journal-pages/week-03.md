@@ -93,6 +93,8 @@ the tools and services are open source and code availbale on github such as curl
 
 ![latitude and longitude from Tawian in google map](../assets/week-03/latitude%20and%20longitude%20from%20Tawian.png)*latitude and longitude from Tawian in google map*
 
+First, I found the latitude and longitude (25.033270144881925, 121.58336066116108) of a different region on Google Maps.
+
 ![Finding weather in API](../assets/week-03/Finding%20weather%20in%20API.png)
 *Finding weather in API*
 
@@ -102,11 +104,12 @@ the tools and services are open source and code availbale on github such as curl
 ![Current Weather](../assets/week-03/Current%20Weather.png)
 *Current Weather*
 
-![Drawing with Weather using an API in p5.js(put the link I got from API to p5.js)](../assets/week-03/Drawing%20with%20Weather%20using%20an%20API%20in%20p5.js.png)
+Then I put it into an API website to get the weather, a link that can be directly embedded in p5.js, and the selected values ​​available in the example.
 
+![Drawing with Weather using an API in p5.js(put the link I got from API to p5.js)](../assets/week-03/Drawing%20with%20Weather%20using%20an%20API%20in%20p5.js.png)
 *Drawing with Weather using an API in p5.js(put the link I got from API to p5.js)*
 
-25.033270144881925, 121.58336066116108
+I then embedded the link into p5.js so it could use weather data for Taipei, Taiwan, for drawing.
 
 # Activity 3 Design a Data Protocol
 
