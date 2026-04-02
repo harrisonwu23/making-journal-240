@@ -373,7 +373,7 @@ In short, this week I shifted my mindset, no longer viewing artificial intellige
 
 ## AI Usage Statement
 
-Gemini 3 is used to help me clarify the task and tech issue I faced during the process(understand how to use GitHub to push/commit local files to online)
+Gemini 3 is used to help me clarify the task and tech issue I faced during the process(it is better to make a video to .gif so it can work in most places), generate the code used by Vibe Codin
 
 Grammarly used to correct my grammar and writing.
 
