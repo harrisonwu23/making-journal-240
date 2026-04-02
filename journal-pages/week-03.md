@@ -145,6 +145,20 @@ This showed me how observation can reveal information that pure data collection 
 - [x] Consider meaningful applications of the tools and techniques (draw on ideas and themes from the practitioner examples)
 - [x] Document your process: sketches, screenshots, code snippets, reflections
 
+## Experiment 3: Live Data
+
+![latitude and longitude from Japan](/assets/week-03/latitude%20and%20longitude%20from%20Japan.png)
+*latitude and longitude from Japan*
+
+![setting 1 in open mete API](../assets/week-03/setting%201.png)
+*setting in open mete API*
+
+![setting 2 in open mete API](/assets/week-03/setting%202.png)
+*setting in open mete API*
+
+![Live data in p5.js with vibe coding](/assets/week-03/Live%20Data%20p5.js.gif)
+*Live data in p5.js with vibe coding*
+
 # Reflection
 
 This week's content was incredibly rich and engaging, giving me a deeper understanding of the concept that "data is not just numbers, but a material that can be designed and translated." From creating animations with p5.js to integrating real-time weather data into the screen using an API, I began to realize that data itself has no emotion. Still, through design (such as visuals, motion, and interaction), it can be transformed into something with feeling. Using `noise()` to make data "move" was particularly inspiring; the process of transforming data into a living system was very enlightening.
