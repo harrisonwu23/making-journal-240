@@ -10,12 +10,12 @@ layout: default
 
 ### Pair Exchange of Live Data Visualisations
 
-![screenshot from p5.js with vibe coding outcome (live data)](/assets/week-03/screenshot%20from%20p5.js%20with%20vibe%20coding%20outcome.png)
+![screenshot from p5.js with vibe coding outcome (live data)](../assets/week-03/screenshot%20from%20p5.js%20with%20vibe%20coding%20outcome.png)
 *screenshot from p5.js with vibe coding outcome(live data)*
 
 [![p5js link button](https://img.shields.io/badge/_Live_Data-Click_to_Try-ED225D?style=for-the-badge&logo=p5.js)](https://editor.p5js.org/harrisonwu23/full/XfDlPwBf6)
 
-![Live data in p5.js with vibe coding](/assets/week-03/Live%20Data%20p5.js.gif)
+![Live data in p5.js with vibe coding](../assets/week-03/Live%20Data%20p5.js.gif)
 *Live data in p5.js with vibe coding*
 
 I discussed the vibe coding and process I used for Live Data in p5.js. My pair is still in the planning section, and he seems interested in vibe coding and digital live data in p5.js.
