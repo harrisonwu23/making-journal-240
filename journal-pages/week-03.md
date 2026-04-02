@@ -93,6 +93,19 @@ the tools and services are open source and code availbale on github such as curl
 
 ![latitude and longitude from Tawian in google map](../assets/week-03/latitude%20and%20longitude%20from%20Tawian.png)*latitude and longitude from Tawian in google map*
 
+![Finding weather in API](../assets/week-03/Finding%20weather%20in%20API.png)
+*Finding weather in API*
+
+![Hourly Weather Variables](../assets/week-03/Hourly%20Weather%20Variables.png)
+*Hourly Weather Variables*
+
+![Current Weather](../assets/week-03/Current%20Weather.png)
+*Current Weather*
+
+![Drawing with Weather using an API in p5.js(put the link I got from API to p5.js)](../assets/week-03/Drawing%20with%20Weather%20using%20an%20API%20in%20p5.js.png)
+
+*Drawing with Weather using an API in p5.js(put the link I got from API to p5.js)*
+
 25.033270144881925, 121.58336066116108
 
 # Activity 3 Design a Data Protocol
