@@ -188,8 +188,20 @@ This project is not intended to provide definitive answers, but rather to create
 ![Find a Dataset](../assets/week-04/Find%20a%20Dataset.png)
 *Find a Dataset in data.govt.nz*
 
-I search up mental helath data in data.govt.nz and saved the csv file 
+I search up mental helath data in data.govt.nz and saved the csv file and hand over to gemini with questions
 
+![gemini response of csv data file 1](../assets/week-04/gemini%20response%20of%20csv%20data%20file%201.png)
+*gemini response of csv data file*
+
+![gemini response of csv data file 2](../assets/week-04/gemini%20response%20of%20csv%20data%20file%202.png)
+*gemini response of csv data file*
+
+![gemini response of csv data file 3](../assets/week-04/gemini%20response%20of%20csv%20data%20file%203.png)
+*gemini response of csv data file*
+
+In Gemini's response, he told me that this data shows New Zealand's vast social service network (over 23,000 services), with a predominance of "free services" (over 60%) and a particular focus on vulnerable groups such as youth, families, and victims of violence. It also reflects the support systems established through local organizations in rural areas. This data can be used to analyze the equitable distribution of services, accessibility across different regions, and whether services meet the needs of the population.
+
+However, the data also contains biases, such as service concentration in large cities (e.g., Auckland), incomplete information due to reliance on self-reported data from organizations, and digital disparities that make some services harder to find. Overall, this data is likely collected by the government (e.g., the Ministry of Social Development) to help people find support resources and to assist in policy-making and resource allocation.
 
 # Reflection
 
