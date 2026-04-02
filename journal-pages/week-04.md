@@ -41,8 +41,12 @@ This week's class focused on exploring the role of AI in design, from practical 
 ![response of my data colleced for visualisation ideas](/assets/week-04/response%20of%20my%20data%20colleced%20for%20visualisation%20ideas.png)
 *response of my data colleced for visualisation ideas*
 
+It contained more content than I expected; while not comprehensive, it was sufficient.
+
 ![response of write a short p5.js sketch](../assets/week-04/response%20of%20write%20a%20short%20p5.js%20sketch.png)
 *response of write a short p5.js sketch*
+
+It fills with blue and error. The AI, like ChatGPT or Gemini, works better with fewer errors
 
 ![outcomes for resoinse into p5.js](../assets/week-04/outcomes%20for%20resoinse%20into%20p5.js.png)
 *outcomes for resoinse into p5.js*
