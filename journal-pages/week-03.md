@@ -91,7 +91,9 @@ the tools and services are open source and code availbale on github such as curl
 
 # Activity 2
 
-![latitude and longitude from Tawian](../assets/week-03/latitude%20and%20longitude%20from%20Tawian.png)
+![latitude and longitude from Tawian in google map](../assets/week-03/latitude%20and%20longitude%20from%20Tawian.png)*latitude and longitude from Tawian in google map*
+
+25.033270144881925, 121.58336066116108
 
 # Activity 3 Design a Data Protocol
 
