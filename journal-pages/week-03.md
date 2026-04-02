@@ -111,6 +111,19 @@ Then I put it into an API website to get the weather, a link that can be directl
 
 I then embedded the link into p5.js so it could use weather data for Taipei, Taiwan, for drawing.
 
+![weather setting in API](../assets/week-03/weather%20setting%20in%20API.png)
+*Different weather setting in API*
+
+![Hourly Weather Variables Setting in API](/assets/week-03/Hourly%20Weather%20Variables%20Setting%20in%20API.png)
+*Different Hourly Weather Variables Setting in API*
+
+![vibe coding with p5.js using API weather in Tawia](../assets/week-03/vibe%20coding%20with%20p5.js%20using%20API%20weather%20in%20Tawian.gif)
+*vibe coding with p5.js using API weather in Tawia*
+(Note. Visualisation created via p5.js using a prompt (Google, 2026) to integrate real-time weather data with noise() for animation. See ## Appendix A in reference for the full prompt and source code.)
+
+
+
+
 # Activity 3 Design a Data Protocol
 
 ![Data protocol](../assets/week-03/data%20protocol.jpg)
@@ -136,7 +149,7 @@ This showed me how observation can reveal information that pure data collection 
 
 ## AI Usage Statement
 
-Gemini 3 is used to help me clarify the task and tech issue I faced during the process(understand is better to make video to .gif so it can work through most place)
+Gemini 3 is used to help me clarify the task and tech issue I faced during the process(it is better to make a video to .gif so it can work in most places), generate the code used by Vibe Coding(See Appendix A for details)
 
 Grammarly used to correct my grammar and writing.
 
@@ -148,3 +161,47 @@ Google. (2026). Gemini 3 Flash (April 1 version) [Large language model]. https:/
 Grammarly Inc. (2026). Grammarly (Version 1.2.3) [Computer software]. https://www.grammarly.com/
 
 OpenAI. (2026). ChatGPT (Mar 14 version) [Large language model]. https://chat.openai.com/
+
+
+## Appendix A: AI Generation Transcript
+
+**Date:** April 2, 2026  
+**Tool:** Gemini (Google)  
+
+### 1. User Prompt (Initial Submission & Request)
+> Use real-time data with `random()` or `noise()`:
+> ```javascript
+> let weather;
+> let url = "[https://api.open-meteo.com/v1/forecast?latitude=25.033270144881925&longitude=121.58336066116108&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m,soil_temperature_6cm,cloud_cover,visibility,precipitation_probability&current=temperature_2m,relative_humidity_2m,wind_speed_10m,rain&timezone=auto](https://api.open-meteo.com/v1/forecast?latitude=25.033270144881925&longitude=121.58336066116108&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m,soil_temperature_6cm,cloud_cover,visibility,precipitation_probability&current=temperature_2m,relative_humidity_2m,wind_speed_10m,rain&timezone=auto)";
+>
+> function preload() {
+>   weather = loadJSON(url);
+> }
+>
+> function setup() {
+>   createCanvas(400, 400);
+>   print(weather.current.temperature_2m);
+>   print(weather.current.wind_speed_10m);
+>   print(weather.current.relative_humidity_2m);
+> }
+>
+> function draw() {
+>   let temp = weather.current.temperature_2m;
+>   let wind = weather.current.wind_speed_10m;
+>   let humidity = weather.current.relative_humidity_2m;
+>   
+>   background(humidity, 100, 200);
+>   fill('white');
+>   circle(200, 200, 23.5 * 10);
+>   fill('red');
+>   rect(0, 350, wind * 20, 50);
+> }
+> ```
+> Use random() or noise() with instant data. Make it into a animation that looks alive.
+
+### 2. AI Response & Technical Logic Provided
+The AI (Gemini) suggested enhancing the "aliveness" of the visualization by treating weather data as **dynamic forces** rather than static values. The following core animation logic was provided:
+
+* **`noise()` Implementation:** Instead of static positions, the AI suggested using Perlin noise to create organic, smooth wobbling for the central element, influenced by the `wind_speed_10m
+
+
