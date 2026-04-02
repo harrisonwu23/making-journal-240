@@ -266,7 +266,7 @@ Also explain:
 - How this approach changes the way we understand the data
 
 ![prompt 2 of Gemini Code Generated visualisation of the data](/assets/week-04/prompt%202%20of_Gemini_Code_Generated_visualisation%20of%20the%20data.png)
-*prompt 2 of Gemini Code Generated visualisation of the data*
+*"Gemini prompt 2 Generated visualisation of the data(Google Gemini, 2026)."*
 
 This is an interesting outcome because some data points are far from the average, making the visual data look really small.
 
@@ -291,6 +291,33 @@ Design direction:
 Also include:
 - Full code
 - Explanation of how interaction helps understanding
+
+![prompt 3 of Gemini Code Generated visualisation of the data for p5js](/assets/week-04/prompt%203%20of_Gemini_Code_Generated_visualisation%20of%20the%20data.png)
+*prompt 3 of Gemini Code Generated visualisation of the data for p5js(Google Gemini, 2026).*
+
+The AI didn't consider potential problems, like the file not being able to be uploaded to p5.js, so it's not working in this one.
+
+### prompt 4 for AI
+
+Translate this dataset into a narrative format.
+
+Format: Short story / diary / scenario
+
+Audience: Someone unfamiliar with data
+
+Instructions:
+- Turn the data into a human-centered story
+- Represent key data points through events or characters
+- Maintain a connection to the actual data values
+
+Also explain:
+- What data each part of the story represents
+- What is gained or lost compared to a visual chart
+
+![![prompt 4 of Gemini Code Generated visualisation of the data](/assets/week-04/prompt%204%20of_Gemini_Code_Generated_visualisation%20of%20the%20data.png)
+*"Gemini prompt 4 Generated visualisation of the data(Google Gemini, 2026)."*
+
+
 
 
 
