@@ -10,6 +10,8 @@ layout: default
 
 ## Documentation 
 
+# Independent Study
+
 # Reflection
 
 ## AI Usage Statement

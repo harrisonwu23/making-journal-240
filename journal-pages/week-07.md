@@ -10,6 +10,16 @@ layout: default
 
 ## Documentation 
 
+# Class activities
+- concept sketches
+- making
+- 'What if' Variations
+
+# Independent Study
+- Project development & skill Building
+- Progress report (or summary of this)
+
+
 # Reflection
 
 ## AI Usage Statement

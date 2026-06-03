@@ -20,10 +20,25 @@ behaviour tracking of user mouse
 
 it tracks the dot at middle, 
 
+
+
+
+
+
+
+Behavioral emtion interpreter (collecting user's data from click, stay, movement and system read as user's emotions)
+
+<iframe src="https://editor.p5js.org/harrisonwu23/full/vQUoyLjEQ"></iframe>
+
 ## Documentation 
 
 
 
+
+# Independent Study
+- Consultation Reflection (150-200 words)
+- Technical skill Building
+- Initial concept sketch
 
 
 
