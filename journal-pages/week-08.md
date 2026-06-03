@@ -11,14 +11,13 @@ layout: default
 ## Documentation 
 
 # Class activities
-- concept sketches
-- making
-- 'What if' Variations
+- Progress Reports(record of feedback received)
+- Critical design propositions
+
 
 # Independent Study
-- Project development & skill Building
-- Progress report (or summary of this)
--
+- Reflective summary (~300 words) 
+- Prokect development
 
 # Reflection
 

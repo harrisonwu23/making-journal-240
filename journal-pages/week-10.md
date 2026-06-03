@@ -10,7 +10,14 @@ layout: default
 
 ## Documentation 
 
+# Class activitie
+- Progress reports (record of feedback received)
+- Gallery walk (participation in the group board)
+- Action plan
+
 # Independent Study
+- Project development
+
 
 # Reflection
 

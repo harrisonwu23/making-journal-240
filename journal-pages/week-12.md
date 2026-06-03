@@ -10,6 +10,11 @@ layout: default
 
 ## Documentation 
 
+# Class activitie
+- Project statement
+- Image(s) of final artefact
+
+
 # Reflection
 
 ## AI Usage Statement
