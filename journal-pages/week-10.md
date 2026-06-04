@@ -26,7 +26,6 @@ layout: default
 ## Feedback Documentation
 
 ![feedback from group](../assets/week-10/Feedback.png)
-
 **Figure 1.** Feedback collected during the Week 10 critique session.
 
 ---
@@ -182,6 +181,10 @@ The goal was to make uncertainty visible without requiring users to read explana
 ---
 
 ![updated prototype](<../assets/week-10/updated prototype.png>)
+**Figure 2.** Updatedprototype featuring atmosphere generation, profile volatility, and uncertainty visualisation.
+
+Note. Behavioural data influences environmental responses, profile stability, and generated interpretations. Screenshot by author.
+
 
 <iframe src="https://editor.p5js.org/harrisonwu23/full/oFE_45rZC"></iframe>
 
