@@ -107,14 +107,15 @@ This shifted the project from emotional representation towards identity construc
 
 *Note. Conceptual structure and content developed by the author. Visualisation generated using OpenAI ChatGPT image generation tools based on author-created prompts, 2026.*
 
+CONCEPT 1
 Behaviour → Emotion → Atmosphere
 
-**[INSERT CONCEPT SKETCH 02]**
 
+CONCEPT 2
 Behaviour → Data → Interpretation → Profile
 
-**[INSERT CONCEPT SKETCH 03]**
 
+CONCEPT 3
 Behaviour → Data → Atmosphere → Reflection
 
 ---
