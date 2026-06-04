@@ -147,7 +147,7 @@ This limitation becomes a central conceptual component of the project and direct
 
 # Visual Research & Precedent Study
 
-## Reference 1 — We Feel Fine
+## Reference 1 — We Feel Fine(Kamvar & Harris, 2006)
 
 **[INSERT IMAGE]**
 
@@ -165,7 +165,7 @@ It reinforces my interest in transforming behavioural information into experient
 
 ---
 
-## Reference 2 — Dear Data
+## Reference 2 — Dear Data(Lupi & Posavec, 2016)
 
 **[INSERT IMAGE]**
 
@@ -183,7 +183,7 @@ It reinforces the project's connection to Data Humanism.
 
 ---
 
-## Reference 3 — Generative Particle Visualisation
+## Reference 3 — Generative Particle Visualisation(Reas & Fry, 2007)
 
 **[INSERT IMAGE]**
 
@@ -201,7 +201,7 @@ It supports the idea of transforming invisible data into visible environmental c
 
 ---
 
-## Reference 4 — Journey
+## Reference 4 — Journey(Chen, 2012)
 
 **[INSERT IMAGE]**
 
@@ -219,7 +219,7 @@ It encourages me to focus on experience rather than information display.
 
 ---
 
-## Reference 5 — The Glass Room
+## Reference 5 — The Glass Room(Tactical Tech, 2016)
 
 **[INSERT IMAGE]**
 
@@ -516,25 +516,359 @@ To investigate whether user behaviour can function as a dynamic data source.
 
 #### Required Evidence
 
-<iframe src="https://editor.p5js.org/harrisonwu23/full/8xCQ_NCKT"></iframe>
-
 ![Prototype 01 experiment p5js](../assets/week-06/Prototype_01_experiment.png)
 
-**[INSERT SCREENSHOT — PLAYER MOVEMENT]**
-
-![Prototyp_01_fixing](../assets/week-06/Prototyp_01_fixing.png)
+<iframe src="https://editor.p5js.org/harrisonwu23/full/8xCQ_NCKT"></iframe>
 
 <details>
-<summary><b>Click to check： Prompt</b></summary>
+<summary><b>Click to check： Prompt to gemini</b></summary>
+Create a complete p5.js prototype called:
+
+"ECHO//PROFILE — Behaviour Tracking Prototype"
+
+Purpose:
+
+This prototype is part of a data-driven visualisation project exploring how behavioural data can be collected and later transformed into algorithmic interpretations of identity.
+
+The goal of this prototype is NOT to create a game.
+
+The goal is to test whether user behaviour can be recorded as a dataset.
+
+Requirements:
+
+Canvas:
+
+- 1000 x 600
+- Clean minimalist visual style
+- White background
+- Black text
+
+Player:
+
+- Represent the user as a simple circle
+- Move using WASD keys
+- Smooth movement
+
+Behaviour Tracking System:
+
+Track:
+1. Distance Travelled
+- Total movement distance
+
+2. Click Count
+- Number of mouse clicks
+
+3. Idle Time
+- Time spent not moving
+
+4. Session Duration
+- Total time since start
+
+5. Interaction Count
+- Mouse clicks count as interactions
+
+6. Movement Time
+- Total time actively moving
+
+Debug Panel:
+Display all tracked values in real-time:
+
+--------------------------------
+
+ECHO//PROFILE
+
+Distance:
+Clicks:
+Interactions:
+Idle Time:
+Movement Time:
+Session Time:
+
+--------------------------------
+
+Visual Feedback:
+
+- Draw a trail behind the player showing movement history
+- Store the last 100 positions
+- Trail should fade gradually
+
+Data Log Section:
+
+On the right side of the screen create a Behaviour Summary panel.
+
+Display:
+
+Behaviour Summary
+
+Distance Travelled
+
+Click Count
+Idle Time
+Session Duration
+
+Update continuously.
+Interaction Feedback:
+
+When the player clicks:
+
+- Spawn a small circle ripple effect
+- Increment click count
+
+Idle Detection:
+
+If the player does not move for 2 seconds:
+
+Display:
+"User Currently Idle"
+
+When moving again:
+
+Display:
+"User Active"
+
+Code Requirements:
+
+- Organised and commented
+- Use variables for all tracked behaviours
+- Use arrays for movement trail
+- Easy to expand into future prototypes
+
+
+Future Compatibility:
+
+Structure the code so that future systems can use these values:
+
+distanceTravelled
+clickCount
+idleTime
+movementTime
+sessionTime
+interactionCount
+No external assets.
+Use only p5.js drawing functions.
+
+The code should run directly in the p5.js Web Editor. 
+
+
+</details>
+
+![Prototyp_01_fixing](../assets/week-06/Prototyp_01_fixing.png)
 
 
 
 <iframe src="https://editor.p5js.org/harrisonwu23/full/cqzNH0dL_"></iframe>
 
-**[INSERT SCREENSHOT — DEBUG PANEL]**
+Trying to debug with giving extended prompt to gemini
 
+<details>
+<summary><b>Click to check： Prompt to gemini</b></summary>
+
+Based on the current p5.js ECHO//PROFILE Behaviour Tracking Prototype, improve the existing code without removing any current functionality.
+
+Keep all existing systems:
+
+
+- WASD movement
+- Distance tracking
+- Click count
+- Idle time
+- Session duration
+- Movement trail
+- Debug panel
+
+The goal of this refinement is to make behavioural data more visible and meaningful as a visualisation rather than simply displaying numbers.
+
+
+Add the following improvements:
+
+
+--------------------------------------------------
+
+1. Behaviour Visualisation Layer
+
+--------------------------------------------------
+
+
+Transform collected behaviour data into visual feedback.
+
+
+Distance Travelled:
+- Increase particle count based on distance travelled.
+- More movement = more particles.
+
+
+Click Count:
+- Generate expanding ripple effects.
+- More clicks = more ripple activity.
+
+Idle Time:
+
+- Create a soft fading aura around the player.
+- Longer idle periods = larger and calmer aura.
+
+Movement Time:
+
+- Slightly increase trail brightness based on active movement.
+
+
+--------------------------------------------------
+
+2. Behaviour Profile System
+
+--------------------------------------------------
+
+Create three behaviour scores:
+
+Explorer Score
+Observer Score
+Engaged Score
+
+Example logic:
+
+Explorer Score:
+Based on distance travelled.
+
+Observer Score:
+Based on idle time.
+
+
+Engaged Score:
+
+Based on click count.
+
+Display percentages:
+
+Explorer: 72%
+
+Observer: 43%
+
+Engaged: 61%
+
+Update continuously.
+
+--------------------------------------------------
+
+3. Live Interpretation Panel
+
+--------------------------------------------------
+
+
+Add a second panel called:
+
+SYSTEM INTERPRETATION
+
+Display generated interpretations based on behaviour.
+
+Examples:
+
+High movement:
+
+"You appear curious."
+
+High idle:
+
+"You prefer observation."
+
+High clicking:
+
+"You actively engage with the environment."
+Show multiple statements simultaneously.
+
+The system should clearly feel like it is interpreting the user rather than simply reporting data.
+--------------------------------------------------
+
+4. Behaviour Timeline
+
+--------------------------------------------------
+
+Create a small visual timeline showing recent activity.
+
+Track:
+Movement
+Idle
+Clicks
+
+Display as coloured blocks or markers.
+
+This should create a simple history of behaviour over time.
+
+--------------------------------------------------
+
+5. Data Collection Visibility
+
+--------------------------------------------------
+
+Add subtle text somewhere on screen:
+
+"Behavioural data is currently being recorded."
+
+Make it continuously visible.
+
+The project explores how digital systems construct identity from behavioural information, so users should always be aware that data collection is happening.
+
+
+--------------------------------------------------
+
+6. Better Visual Hierarchy
+
+--------------------------------------------------
+
+Improve layout and typography.
+
+Separate:
+
+RAW DATA
+SYSTEM INTERPRETATION
+BEHAVIOUR PROFILE
+
+
+Make each section visually distinct.
+
+--------------------------------------------------
+
+7. Reflection Prompt
+
+--------------------------------------------------
+
+After 60 seconds of interaction, display:
+
+"The system has generated an identity profile based on your behaviour."
+
+Below it display:
+
+Explorer: XX%
+Observer: XX%
+Engaged: XX%
+
+
+
+Then show:
+
+"Do these interpretations represent who you are?"
+
+This is intended to introduce reflection on algorithmic profiling and digital identity.
+
+
+--------------------------------------------------
+
+Code Requirements
+
+--------------------------------------------------
+
+- Keep the code clean and well-commented.
+- Use classes where appropriate.
+- Do not remove any existing behaviour tracking systems.
+- Use only p5.js drawing functions.
+- No external assets.
+- Maintain compatibility with the p5.js Web Editor.
+
+This refinement should move the prototype from simple behaviour tracking towards an early data-driven visualisation experience aligned with the ECHO//PROFILE project concept.
+
+</details>
 
 **[INSERT SCREENSHOT — CODE EXCERPT]**
+![AI finished collecting user's data](<../assets/week-06/AI_finished collecting user's data.png>)
+AI finished collecting user's data
 
 #### Learning Outcomes
 
@@ -647,8 +981,18 @@ ChatGPT was used to assist with brainstorming, project planning, concept refinem
 - Initial concept sketch
 
 
+# References
 
-# Reflection
+Chen, J. (Creative Director). (2012). *Journey* [Video game]. thatgamecompany.
 
-## AI Usage Statement
+Google. (2026). *Gemini* (June 2026 version) [Large language model]. https://gemini.google.com
 
+Kamvar, S., & Harris, J. (2006). *We Feel Fine*. http://www.wefeelfine.org
+
+Lupi, G., & Posavec, S. (2016). *Dear Data*. Princeton Architectural Press.
+
+OpenAI. (2026). *ChatGPT* (GPT-5.5, June 2026 version) [Large language model]. https://chatgpt.com
+
+Reas, C., & Fry, B. (2007). *Processing: A Programming Handbook for Visual Designers and Artists*. MIT Press.
+
+Tactical Tech. (2016). *The Glass Room*. https://theglassroom.org
