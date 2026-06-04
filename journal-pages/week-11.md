@@ -207,14 +207,6 @@ This direction became the central argument of the project and informed all major
 
 <iframe src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"></iframe>
 
-<iframe
-  src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"
-  width="100%"
-  height="900"
-  style="border:none;"
-  allowfullscreen>
-</iframe>
-
 ## Development Documentation
 
 The final prototype represents the outcome of several weeks of experimentation, iteration, and refinement. Rather than following a fixed development plan, the project evolved through a process of testing individual systems, evaluating their effectiveness, and gradually integrating them into a more cohesive experience.
