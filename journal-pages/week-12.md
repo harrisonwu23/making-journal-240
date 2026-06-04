@@ -10,8 +10,8 @@ layout: default
 
 <iframe
   src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"
-  width="100%"
-  height="1100"
+  width="atuo"
+  height="atuo"
   style="
     border: 1px solid #ddd;
     margin-top: 20px;
