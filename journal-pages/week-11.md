@@ -205,9 +205,17 @@ This direction became the central argument of the project and informed all major
   Open Interactive Prototype
 </a>
 
-<iframe src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"></iframe>
-
-
+<iframe
+  src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"
+  width="atuo"
+  height="atuo"
+  style="
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  "
+  allowfullscreen>
+</iframe>
 
 ## Development Documentation
 
