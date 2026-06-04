@@ -518,11 +518,21 @@ To investigate whether user behaviour can function as a dynamic data source.
 
 <iframe src="https://editor.p5js.org/harrisonwu23/full/8xCQ_NCKT"></iframe>
 
-![Prototype 01 experiment](assets/week-06/Prototype_01_experiment.png)
+![Prototype 01 experiment p5js](../assets/week-06/Prototype_01_experiment.png)
 
 **[INSERT SCREENSHOT — PLAYER MOVEMENT]**
 
+![Prototyp_01_fixing](../assets/week-06/Prototyp_01_fixing.png)
+
+<details>
+<summary><b>Click to check： Prompt</b></summary>
+
+
+
+<iframe src="https://editor.p5js.org/harrisonwu23/full/cqzNH0dL_"></iframe>
+
 **[INSERT SCREENSHOT — DEBUG PANEL]**
+
 
 **[INSERT SCREENSHOT — CODE EXCERPT]**
 
