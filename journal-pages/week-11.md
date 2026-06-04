@@ -207,17 +207,7 @@ This direction became the central argument of the project and informed all major
 
 <iframe src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"></iframe>
 
-<iframe
-  src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"
-  width="100%"
-  height="1100"
-  style="
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  "
-  allowfullscreen>
-</iframe>
+
 
 ## Development Documentation
 

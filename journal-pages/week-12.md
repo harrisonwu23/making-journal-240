@@ -8,6 +8,18 @@ layout: default
 
 # DES240 12: Design Project
 
+<iframe
+  src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"
+  width="100%"
+  height="1100"
+  style="
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  "
+  allowfullscreen>
+</iframe>
+
 ## Documentation 
 
 # Class activitie
