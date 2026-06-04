@@ -149,7 +149,7 @@ This limitation becomes a central conceptual component of the project and direct
 
 ## Reference 1 — We Feel Fine(Kamvar & Harris, 2006)
 
-**[INSERT IMAGE]**
+![We Feel Fine(Kamvar & Harris, 2006)](<../assets/week-06/We Feel Fine.png>)
 
 What draws me to it?
 
@@ -167,7 +167,7 @@ It reinforces my interest in transforming behavioural information into experient
 
 ## Reference 2 — Dear Data(Lupi & Posavec, 2016)
 
-**[INSERT IMAGE]**
+[alt text](<../assets/week-06/Dear Data.png>)
 
 What draws me to it?
 
@@ -185,7 +185,6 @@ It reinforces the project's connection to Data Humanism.
 
 ## Reference 3 — Generative Particle Visualisation(Reas & Fry, 2007)
 
-**[INSERT IMAGE]**
 
 What draws me to it?
 
@@ -203,7 +202,6 @@ It supports the idea of transforming invisible data into visible environmental c
 
 ## Reference 4 — Journey(Chen, 2012)
 
-**[INSERT IMAGE]**
 
 What draws me to it?
 
@@ -221,7 +219,6 @@ It encourages me to focus on experience rather than information display.
 
 ## Reference 5 — The Glass Room(Tactical Tech, 2016)
 
-**[INSERT IMAGE]**
 
 What draws me to it?
 
@@ -247,7 +244,6 @@ The collected data will be interpreted and transformed into environmental respon
 
 ### Final Artefact Sketch
 
-**[INSERT CONCEPT SKETCH]**
 
 Suggested Layout:
 
@@ -279,7 +275,6 @@ Reflection Screen
 
 ## User Journey Diagram
 
-**[INSERT USER JOURNEY DIAGRAM]**
 
 Suggested Flow:
 
@@ -371,10 +366,6 @@ I also intend to continue researching examples of generative visualisation and a
 
 ## System Architecture
 
-**[INSERT SYSTEM ARCHITECTURE DIAGRAM]**
-
-Suggested Diagram:
-
 ```text
 User
 
@@ -420,7 +411,7 @@ Data to track:
 * Idle time
 * Session duration
 
-**[INSERT PLANNING SKETCH]**
+![planning 1](<../assets/week-06/Prototype 01 Behaviour Tracking PLANNING.png>)
 
 ---
 
@@ -440,7 +431,7 @@ Idle Time → Calm
 Clicks → Engagement
 ```
 
-**[INSERT INTERPRETATION DIAGRAM]**
+![planning 2](<../assets/week-06/Prototype 02  Behaviour Interpretation.png>)
 
 ---
 
@@ -460,7 +451,7 @@ Calm → Slower Motion
 Energy → Faster Motion
 ```
 
-**[INSERT ATMOSPHERE SKETCH]**
+![planning 3](<../assets/week-06/Prototype 03  Atmosphere System.png>)
 
 ---
 
@@ -480,7 +471,7 @@ You seek exploration.
 You prefer observation.
 ```
 
-**[INSERT PROFILE MOCKUP]**
+![planning 4](<../assets/week-06/Prototype 04 Profile Generator.png>)
 
 ---
 
@@ -970,9 +961,6 @@ Moving forward, I aim to test how behavioural data can be collected and transfor
 ## AI Usage Statement
 
 ChatGPT was used to assist with brainstorming, project planning, concept refinement, documentation structure, and writing support. All research interpretation, design decisions, experimentation, coding implementation, visual development, and final project outcomes were reviewed, modified, and developed by the author.
-
-
-
 
 
 # Independent Study

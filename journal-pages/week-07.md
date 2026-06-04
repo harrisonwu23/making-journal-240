@@ -646,9 +646,6 @@ Technically, I developed foundational skills in behaviour tracking and data mana
 
 ChatGPT was used to assist with brainstorming, project planning, documentation structure, reflection writing, and concept development. All experimentation, coding implementation, design decisions, interpretation, and project outcomes were reviewed, modified, and developed by the author.
 
-
-
-
 ## Documentation 
 
 # Class activities
@@ -662,8 +659,6 @@ behaviour tracking of user mouse
 <iframe src="https://editor.p5js.org/harrisonwu23/full/6W65RTo9D"></iframe>
 
 it tracks the dot at middle, 
-
-
 
 
 
