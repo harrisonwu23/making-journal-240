@@ -207,6 +207,24 @@ This direction became the central argument of the project and informed all major
 
 <iframe src="https://editor.p5js.org/harrisonwu23/full/ZViBNbYpQ"></iframe>
 
+## Development Documentation
+
+The final prototype represents the outcome of several weeks of experimentation, iteration, and refinement. Rather than following a fixed development plan, the project evolved through a process of testing individual systems, evaluating their effectiveness, and gradually integrating them into a more cohesive experience.
+
+Early prototypes focused primarily on behaviour tracking. These experiments successfully recorded movement, clicks, idle time, and session duration, but the experience felt more like a data collection tool than a meaningful visualisation. While the system could generate data, it was not yet communicating why that data mattered.
+
+Subsequent iterations introduced profile generation, confidence calculations, and behavioural interpretation systems. These additions allowed the prototype to transform behavioural information into generated identities such as Explorer, Observer, and Engaged. However, these versions relied heavily on interface panels and textual feedback, making the experience feel more like a dashboard than an interactive visualisation.
+
+Through critique sessions and ongoing reflection, I began shifting the project towards uncertainty, instability, and interpretation. This led to the development of profile volatility systems, misclassification events, confidence fluctuations, and reflection prompts. These features helped expose the limitations of behavioural profiling and reinforced the project's critical focus on algorithmic interpretation rather than behavioural accuracy.
+
+One of the greatest challenges during development was combining these systems into a single coherent experience. Behaviour tracking, atmosphere generation, profile generation, confidence systems, misclassification events, reflection interactions, and environmental visualisation were initially developed separately. Integrating them required significant experimentation and repeated adjustments to ensure that each system responded to behavioural information while still supporting the overall concept.
+
+After multiple iterations, I was able to successfully combine these previously separate features into a unified prototype. Player behaviour now influences atmosphere generation, profile construction, confidence calculations, AI interpretation, and reflection systems simultaneously. This integration transformed the project from a collection of individual experiments into a complete interactive data-driven visualisation.
+
+The final prototype demonstrates how behavioural information can be collected, interpreted, reconstructed, challenged, and reflected upon within a single experience. More importantly, it communicates the project's central argument: that digital systems do not simply record behaviour, but actively construct assumptions about identity through interpretation. Rather than presenting data as objective truth, the prototype reveals the uncertainty, instability, and subjectivity involved in transforming behaviour into identity.
+
+
+
 ---
 
 # Reflection
