@@ -13,16 +13,6 @@ layout: default
 - Visual Research and Precedent Study
 - ProjectPlanning and skills Rpadmap
 
-
-
-
-## Documentation 
-
-
-# DES240 6: Design Project
-
-# Class Activities
-
 ## Project Overview
 
 For this project, I will explore how behavioural data can be transformed into emotional and atmospheric experiences rather than being presented through traditional charts, graphs, or numerical visualisations.
@@ -167,7 +157,7 @@ It reinforces my interest in transforming behavioural information into experient
 
 ## Reference 2 — Dear Data(Lupi & Posavec, 2016)
 
-[alt text](<../assets/week-06/Dear Data.png>)
+![Dear Data(Lupi & Posavec, 2016)](<../assets/week-06/Dear Data.png>)
 
 What draws me to it?
 

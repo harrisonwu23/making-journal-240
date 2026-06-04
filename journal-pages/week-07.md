@@ -72,33 +72,100 @@ The concept emphasised the invisible relationship between user behaviour and alg
 
 ---
 
-## Peer Feedback
 
-### Observation 01
+## Peer Feedback Documentation
 
-> "The profile feels interesting, but I want to understand how the system reaches its conclusions."
+During the concept sketch critique session, I presented my project and collected written feedback from classmates. The responses provided useful insights into how others interpreted the project and revealed several areas that required further clarification.
 
-### Observation 02
+### skech I showed
 
-> "The atmosphere seems disconnected from the generated profile."
+![early Proposal concept skecth](<../assets/week-05/Proposal concept image.png>)
+**Figure 1** early Proposal concept skecth from chat GPT.
 
-### Observation 03
 
-> "It would be interesting if users could disagree with the profile."
+### Feedback Evidence
 
-### Question 01
-
-> "What behaviours influence the profile most strongly?"
-
-### Question 02
-
-> "How accurate is the profile intended to be?"
-
-### Question 03
-
-> "What happens if the system gets it wrong?"
+![Feedback Collection from classmate](<../assets/week-07/feedback from classmate.png>)
+**Figure 2** Peer feedback collected during the concept sketch development activity.
 
 ---
+
+### Theme 01 — Clarifying the Project Outcome
+
+One participant asked:
+
+> "Are you making an interactive desktop wallpaper?"
+
+This question revealed that the intended outcome of the project was not immediately clear.
+
+Although I understood the project as an interactive data-driven visualisation, some viewers interpreted it primarily as a decorative or atmospheric digital artwork.
+
+This highlighted the need to communicate the project's purpose more clearly and emphasise the role of behavioural data collection and interpretation.
+
+---
+
+### Theme 02 — Data Collection and Real-Time Translation
+
+Another participant commented:
+
+> "How will you collect the data?"
+
+> "Will it be translated in real time?"
+
+This feedback directly addressed one of the project's central mechanisms.
+
+The comment reinforced the importance of making the data collection process visible and understandable.
+
+As a result, I decided that future prototypes should clearly show how behavioural information is recorded and transformed into visual outputs and generated interpretations.
+
+This feedback strongly influenced the development of my Week 7 behaviour-tracking prototype.
+
+---
+
+### Theme 03 — Simplification and Readability
+
+Several comments suggested that the concept contained many interconnected ideas.
+
+Examples included:
+
+> "There's a lot going on."
+
+> "Simplifying could be good."
+
+> "I feel there was too much going on for me to fully understand it."
+
+This feedback suggested that the project was conceptually interesting but visually complex.
+
+Rather than introducing additional features, I realised that simplifying the system structure and visual communication would strengthen the project.
+
+Moving forward, I intend to focus on a clearer behavioural flow:
+
+```text
+Behaviour
+    ↓
+Data Collection
+    ↓
+Interpretation
+    ↓
+Profile
+    ↓
+Reflection
+---
+
+### Impact on Project Development
+
+The peer feedback helped reveal that the most important improvement was not adding more features but making the existing system easier to understand.
+
+As a result, I revised the project structure to emphasise:
+
+- Behaviour Tracking
+- Data Collection
+- Interpretation Rules
+- Profile Construction
+- User Reflection
+
+This refinement strengthened the project's focus on algorithmic interpretation and improved the clarity of the overall experience.
+
 
 ## Reflection on Feedback
 
@@ -179,9 +246,306 @@ To test whether user behaviour can be successfully recorded and transformed into
 
 ### Prototype Overview
 
+![develop 1](<../assets/week-07/develop 1.png>)
+**Figure 3** The ECHO//PROFILE behaviour tracking prototype. Users move a circle using WASD while the system continuously records behavioural information and generates profile interpretations in real time.
+
+![develop 1 moving](<../assets/week-07/develop 1 moving.png>)
+
+
+
+<iframe src="https://editor.p5js.org/harrisonwu23/full/GRz_3bHpt"></iframe>
+
+
+<details>
+<summary><b>Click to check： Prompt to gemini</b></summary>
+Create a complete p5.js prototype for my DES240 Week 7 Data-Driven Visualisation project.
+
+Project title:
+ECHO//PROFILE — Week 7 Behaviour Interpretation Prototype
+
+Context:
+This project explores how digital systems collect behavioural data and use it to construct interpretations of user identity. The goal is not to create a finished game, but to make a rough, testable prototype for a design process journal.
+
+The prototype should show:
+1. Behaviour tracking
+2. Live data collection
+3. Simple interpretation logic
+4. A generated identity/profile panel
+5. Enough visual output for screenshots in a project blog
+
+Use only p5.js drawing functions.
+No external assets.
+The code must run directly in the p5.js Web Editor.
+
+Canvas:
+- 1000 x 600
+- White or very light background
+- Minimal black/grey interface
+- Clean academic data-visualisation style
+
+User Interaction:
+- Represent the user as a simple circle.
+- Move the circle using WASD keys.
+- Allow mouse clicks anywhere on the canvas.
+
+Track these behaviours in real time:
+- distanceTravelled
+- clickCount
+- idleTime
+- movementTime
+- sessionTime
+- interactionCount
+- directionChanges
+
+Debug / Raw Data Panel:
+Create a left-side panel titled:
+
+RAW BEHAVIOURAL DATA
+
+Display:
+- Distance Travelled
+- Click Count
+- Idle Time
+- Movement Time
+- Session Time
+- Direction Changes
+- Current State: ACTIVE / IDLE
+
+Visualisation Area:
+In the centre area, show:
+- The user circle
+- A movement trail behind the user
+- Small particles generated by movement
+- Click ripple effects when the mouse is clicked
+- A soft aura around the user when idle
+
+Interpretation Logic:
+Create three profile scores based on behaviour:
+
+Explorer Score:
+- Increases with distanceTravelled and directionChanges
+
+Observer Score:
+- Increases with idleTime
+
+Engaged Score:
+- Increases with clickCount and interactionCount
+
+Scores should be displayed as percentages from 0 to 100.
+
+Profile / Interpretation Panel:
+Create a right-side panel titled:
+
+SYSTEM INTERPRETATION
+
+Display:
+- Explorer: XX%
+- Observer: XX%
+- Engaged: XX%
+
+Also display generated interpretation statements, for example:
+- "You appear curious."
+- "You prefer observation."
+- "You actively engage with the system."
+
+The statements should change depending on which score is highest.
+
+Reflection Prompt:
+After 45 seconds, display a message near the bottom:
+
+"The system has generated an identity profile from your behaviour."
+
+Then display:
+
+"Do these interpretations represent who you are?"
+
+Add two visual buttons:
+[ AGREE ] [ DISAGREE ]
+
+The buttons do not need complex functionality, but when clicked they should update a text label:
+- If AGREE clicked: "User accepted the system profile."
+- If DISAGREE clicked: "User challenged the system profile."
+
+Important Conceptual Note:
+The prototype should make it clear that the system is interpreting behaviour, not revealing objective truth.
+
+Add small text somewhere:
+"Behavioural data is being recorded and interpreted."
+
+Code Requirements:
+- Clean and commented
+- Easy to modify
+- Use clear variable names
+- Use arrays for movement trail, particles, and click ripples
+- Do not use external libraries except p5.js
+- Make the layout screenshot-friendly for a design blog
+
+Please provide the complete p5.js code only.
+</details>
+
+
 A simple p5.js environment was created where users control a circle using WASD movement.
 
 The prototype continuously records behavioural information and displays collected data through a live debugging interface.
+
+![develop 2](<../assets/week-07/develop 2.png>)
+**Figure 4** Real-time behavioural metrics collected by the system, including distance travelled, idle time, click count, movement time, and session duration.
+
+
+
+<details>
+<summary><b>Click to check： Prompt to gemini</b></summary>
+
+Based on the current p5.js code for “ECHO//PROFILE — Week 7 Behaviour Interpretation Prototype”, improve the existing code without removing any current functionality.
+
+
+
+Do not rewrite the concept from scratch. Refine and extend the current prototype so it becomes stronger as a DES240 Week 7 data-driven visualisation experiment.
+
+
+
+Keep all existing features:
+
+- WASD player movement
+
+- Behaviour tracking
+
+- Raw data panel
+
+- Movement trail
+
+- Particles
+
+- Click ripples
+
+- Idle aura
+
+- System interpretation panel
+
+- Explorer / Observer / Engaged scores
+
+- Reflection prompt with AGREE / DISAGREE buttons
+
+
+
+Improve the prototype in the following ways:
+
+
+
+1. Make the data visualisation clearer
+
+- Add simple bar indicators for Explorer, Observer, and Engaged scores.
+
+- Add a small “recent activity timeline” showing recent behaviour states:
+
+  - Movement
+
+  - Idle
+
+  - Click
+
+- The timeline should update during interaction.
+
+
+
+2. Improve the interpretation logic
+
+- Make the profile scores feel more balanced.
+
+- Explorer should be based on distance travelled and direction changes.
+
+- Observer should be based on idle time.
+
+- Engaged should be based on click count and interaction count.
+
+- Keep all scores between 0 and 100.
+
+- Avoid all scores becoming 100 too quickly.
+
+
+
+3. Add uncertainty to the system
+
+Because the project critiques algorithmic profiling, the system should show that its interpretation is not objective truth.
+
+
+
+Add:
+
+- Confidence Level: XX%
+
+- A short note:
+
+  “This profile is an interpretation, not a fact.”
+
+Confidence should increase slowly with session time and amount of behaviour collected.
+
+4. Improve screenshot quality
+
+Make the layout clearer for blog documentation:
+
+- Left panel: RAW BEHAVIOURAL DATA
+- Centre: INTERACTION SPACE
+- Right panel: SYSTEM INTERPRETATION
+- Bottom: REFLECTION PROMPT
+- Use clean typography and spacing.
+
+- Keep the style minimal, academic, and monochrome.
+
+5. Add visual connection between data and profile
+
+When a score increases, show a subtle pulse or highlight on that profile bar.
+
+This should make it easier to see that behaviour is changing the generated identity profile.
+
+
+6. Add a data log
+
+Add a small log panel that records recent system interpretations, for example:
+- “Movement detected → Explorer score increased.”
+- “Idle behaviour detected → Observer score increased.”
+- “Click interaction detected → Engaged score increased.”
+
+Keep only the most recent 5 log entries.
+
+
+7. Keep the code clean
+
+- Use clear variable names.
+- Add comments explaining the main systems.
+- Organise the code into functions where possible.
+- Do not use external assets.
+- Do not use external libraries except p5.js.
+- The code must run directly in the p5.js Web Editor.
+
+Important:
+
+The prototype should still feel like a rough Week 7 experiment, not a final polished game.
+
+The main goal is to show:
+Behaviour
+↓
+Data Collection
+↓
+Interpretation
+↓
+Profile Generation
+↓
+Reflection
+
+
+Please provide the complete improved p5.js code only.
+
+- make it more visualize
+- without using any asset
+- Make it looks playful and easy to understand</details>
+
+
+![added more visual element](<../assets/week-07/added more visual element.png>)
+
+
+<iframe src="https://editor.p5js.org/harrisonwu23/full/nD1d-rJoO"></iframe>
+
 
 ### Behaviours Recorded
 
@@ -194,6 +558,7 @@ The prototype continuously records behavioural information and displays collecte
 | Activity       | Movement Time      |
 
 ---
+![alt text](<../assets/week-07/feedback from classmate.png>)
 
 ### Prototype Structure
 
@@ -645,32 +1010,3 @@ Technically, I developed foundational skills in behaviour tracking and data mana
 ## AI Usage Statement
 
 ChatGPT was used to assist with brainstorming, project planning, documentation structure, reflection writing, and concept development. All experimentation, coding implementation, design decisions, interpretation, and project outcomes were reviewed, modified, and developed by the author.
-
-## Documentation 
-
-# Class activities
-- concept sketches
-- making
-- 'What if' Variations
-
-
-behaviour tracking of user mouse
-
-<iframe src="https://editor.p5js.org/harrisonwu23/full/6W65RTo9D"></iframe>
-
-it tracks the dot at middle, 
-
-
-
-Behavioral emtion interpreter (collecting user's data from click, stay, movement and system read as user's emotions)
-
-<iframe src="https://editor.p5js.org/harrisonwu23/full/vQUoyLjEQ"></iframe>
-
-# Independent Study
-- Project development & skill Building
-- Progress report (or summary of this)
-
-
-# Reflection
-
-## AI Usage Statement

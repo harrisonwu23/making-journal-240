@@ -18,10 +18,19 @@ The final result will be presented in an interactive, gamified, and visual form,
 
 This project is not intended to provide definitive answers, but rather to create a space for reflection, enabling users to perceive and question the relationship between data, identity, and emotion.
 
-# Independent Study
-
-- [x]
+## Proposal concept image
+![Proposal concept image](<../assets/week-05/Proposal concept image.png>)
 
 # Reflection
 
+Writing this proposal helped me clarify and organise ideas that had previously existed only as loose concepts. While developing the proposal, I realised that translating abstract thoughts into written form required me to define the project's purpose, audience, data sources, and intended outcomes more clearly.
+
+One of the most valuable aspects of the process was identifying areas that needed further development. As I described how the system would collect, interpret, and visualise data, I became more aware of gaps in the concept, particularly around how behavioural data would be translated into emotional interpretations and how users might understand or question those interpretations. This revealed opportunities to further refine the relationship between data collection, system interpretation, and user reflection.
+
+The writing process also helped me recognise that the project is less about accurately representing emotions and more about exploring how digital systems construct assumptions about people through data. This shift in focus strengthened the conceptual direction of the project and connected it more closely to themes of Data Humanism and algorithmic interpretation.
+
+Overall, writing the proposal was not simply a documentation exercise but a design process in itself. It allowed me to critically evaluate my ideas, identify areas for improvement, and establish a clearer direction for future experimentation and development.
+
 ## AI Usage Statement
+
+ChatGPT is used to assist with grammar and ensure smooth writing.
